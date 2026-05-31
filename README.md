@@ -1,43 +1,34 @@
-# Documentary workspace
+# Documentary Channel — Automated Pipeline
 
-Multi-project repo for AI-assisted documentary editing. Each project lives under `projects/` with its own assets, data, and outputs. Shared build tools live in `scripts/`.
+Multi-project repo for AI-assisted YouTube documentaries (Curious Mind / Wendover style).
+
+**Active project:** Project 2 — *AI Is Secretly Draining Your City's Water Supply*
+
+**Full briefing:** [`youtube_channel_context.md`](youtube_channel_context.md) — paste into new chat sessions.
 
 ## Layout
 
 ```
-├── prompts/                    Narration and voice prompts per project
-│   └── burmese-python/
-├── projects/                   One folder per documentary
-│   └── burmese-python/
-│       ├── assets/             Source B-roll, main video, audio
-│       ├── data/               Plans, whisper, subtitles, catalog
-│       ├── output/             Rendered MP4s
-│       ├── intermediate/       Extracted frames (local)
-│       └── reports/            Sync audit JSON (+ local review frames)
-└── scripts/                    Shared Python pipeline
+├── youtube_channel_context.md   Full project context
+├── prompts/ai-water-supply/     Narration + voice notes
+├── projects/ai-water-supply/    Active video (script, assets, output)
+├── scripts/                     Shared v6 build pipeline
+└── archive/project-1-burmese-python/   Archived Everglades test project
 ```
 
-## Projects
+## Project 2 — next steps
 
-| Project | Folder | Description |
-|---------|--------|-------------|
-| Burmese Python | `projects/burmese-python/` | Florida Everglades invasive python documentary |
-
-## Quick start (Burmese Python)
+1. Render narration → `prompts/ai-water-supply/narration.txt` → ElevenLabs
+2. Source B-roll from `projects/ai-water-supply/data/script_AI_water_supply.json` → `broll_master_list`
+3. Run Whisper + v6 pipeline
 
 ```bash
-# Rebuild best edit (v6)
+# Default project is ai-water-supply
 python3.12 scripts/build/build_documentary_v6.py
-
-# Audit sync
-python3.12 scripts/sync/audit_sync.py \
-  --video projects/burmese-python/output/final_documentary_6.mp4 \
-  --plan projects/burmese-python/data/plans/final_documentary_6_plan.json
 ```
-
-Set `DOCUMENTARY_PROJECT=burmese-python` to target a different project folder (default).
 
 ## Requirements
 
 - Python 3.12+
 - ffmpeg / ffprobe
+- ElevenLabs API (narration)

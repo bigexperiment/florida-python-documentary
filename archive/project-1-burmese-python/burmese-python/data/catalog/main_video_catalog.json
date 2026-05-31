@@ -1,0 +1,2936 @@
+{
+  "source": "The_Asymmetric_War__Florida_vs.mp4",
+  "duration": 366.29,
+  "frames_dir": "intermediate/main_video_frames/",
+  "whisper_source": "data/whisper/main_video_whisper.json",
+  "segments": [
+    {
+      "second": 0,
+      "timestamp": "00:00:00",
+      "transcript": "The Florida Everglades stretch across millions of acres of slow moving water and dense sawgrass.",
+      "frame": "intermediate/main_video_frames/frame_0001.jpg",
+      "topic": "everglades",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 1,
+      "timestamp": "00:00:01",
+      "transcript": "The Florida Everglades stretch across millions of acres of slow moving water and dense sawgrass.",
+      "frame": "intermediate/main_video_frames/frame_0002.jpg",
+      "topic": "everglades",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 2,
+      "timestamp": "00:00:02",
+      "transcript": "The Florida Everglades stretch across millions of acres of slow moving water and dense sawgrass.",
+      "frame": "intermediate/main_video_frames/frame_0003.jpg",
+      "topic": "everglades",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 3,
+      "timestamp": "00:00:03",
+      "transcript": "The Florida Everglades stretch across millions of acres of slow moving water and dense sawgrass.",
+      "frame": "intermediate/main_video_frames/frame_0004.jpg",
+      "topic": "everglades",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 4,
+      "timestamp": "00:00:04",
+      "transcript": "The Florida Everglades stretch across millions of acres of slow moving water and dense sawgrass.",
+      "frame": "intermediate/main_video_frames/frame_0005.jpg",
+      "topic": "everglades",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 5,
+      "timestamp": "00:00:05",
+      "transcript": "The Florida Everglades stretch across millions of acres of slow moving water and dense sawgrass.",
+      "frame": "intermediate/main_video_frames/frame_0006.jpg",
+      "topic": "everglades",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 6,
+      "timestamp": "00:00:06",
+      "transcript": "It is a highly specialized ecosystem, but right now, there is a massive predator moving just beneath the surface.",
+      "frame": "intermediate/main_video_frames/frame_0007.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 7,
+      "timestamp": "00:00:07",
+      "transcript": "It is a highly specialized ecosystem, but right now, there is a massive predator moving just beneath the surface.",
+      "frame": "intermediate/main_video_frames/frame_0008.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 8,
+      "timestamp": "00:00:08",
+      "transcript": "It is a highly specialized ecosystem, but right now, there is a massive predator moving just beneath the surface.",
+      "frame": "intermediate/main_video_frames/frame_0009.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 9,
+      "timestamp": "00:00:09",
+      "transcript": "It is a highly specialized ecosystem, but right now, there is a massive predator moving just beneath the surface.",
+      "frame": "intermediate/main_video_frames/frame_0010.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 10,
+      "timestamp": "00:00:10",
+      "transcript": "It is a highly specialized ecosystem, but right now, there is a massive predator moving just beneath the surface.",
+      "frame": "intermediate/main_video_frames/frame_0011.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 11,
+      "timestamp": "00:00:11",
+      "transcript": "It is a highly specialized ecosystem, but right now, there is a massive predator moving just beneath the surface.",
+      "frame": "intermediate/main_video_frames/frame_0012.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 12,
+      "timestamp": "00:00:12",
+      "transcript": "It is a highly specialized ecosystem, but right now, there is a massive predator moving just beneath the surface.",
+      "frame": "intermediate/main_video_frames/frame_0013.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 13,
+      "timestamp": "00:00:13",
+      "transcript": "It is a highly specialized ecosystem, but right now, there is a massive predator moving just beneath the surface.",
+      "frame": "intermediate/main_video_frames/frame_0014.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 14,
+      "timestamp": "00:00:14",
+      "transcript": "15 federal, state, and tribal agencies are currently operating under a single unified control plan.",
+      "frame": "intermediate/main_video_frames/frame_0015.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 15,
+      "timestamp": "00:00:15",
+      "transcript": "15 federal, state, and tribal agencies are currently operating under a single unified control plan.",
+      "frame": "intermediate/main_video_frames/frame_0016.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 16,
+      "timestamp": "00:00:16",
+      "transcript": "15 federal, state, and tribal agencies are currently operating under a single unified control plan.",
+      "frame": "intermediate/main_video_frames/frame_0017.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 17,
+      "timestamp": "00:00:17",
+      "transcript": "15 federal, state, and tribal agencies are currently operating under a single unified control plan.",
+      "frame": "intermediate/main_video_frames/frame_0018.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 18,
+      "timestamp": "00:00:18",
+      "transcript": "15 federal, state, and tribal agencies are currently operating under a single unified control plan.",
+      "frame": "intermediate/main_video_frames/frame_0019.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 19,
+      "timestamp": "00:00:19",
+      "transcript": "15 federal, state, and tribal agencies are currently operating under a single unified control plan.",
+      "frame": "intermediate/main_video_frames/frame_0020.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 20,
+      "timestamp": "00:00:20",
+      "transcript": "15 federal, state, and tribal agencies are currently operating under a single unified control plan.",
+      "frame": "intermediate/main_video_frames/frame_0021.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 21,
+      "timestamp": "00:00:21",
+      "transcript": "They are responding to a biological invasion that is actively dismantling the region's native wildlife.",
+      "frame": "intermediate/main_video_frames/frame_0022.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 22,
+      "timestamp": "00:00:22",
+      "transcript": "They are responding to a biological invasion that is actively dismantling the region's native wildlife.",
+      "frame": "intermediate/main_video_frames/frame_0023.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 23,
+      "timestamp": "00:00:23",
+      "transcript": "They are responding to a biological invasion that is actively dismantling the region's native wildlife.",
+      "frame": "intermediate/main_video_frames/frame_0024.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 24,
+      "timestamp": "00:00:24",
+      "transcript": "They are responding to a biological invasion that is actively dismantling the region's native wildlife.",
+      "frame": "intermediate/main_video_frames/frame_0025.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 25,
+      "timestamp": "00:00:25",
+      "transcript": "They are responding to a biological invasion that is actively dismantling the region's native wildlife.",
+      "frame": "intermediate/main_video_frames/frame_0026.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 26,
+      "timestamp": "00:00:26",
+      "transcript": "They are responding to a biological invasion that is actively dismantling the region's native wildlife.",
+      "frame": "intermediate/main_video_frames/frame_0027.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 27,
+      "timestamp": "00:00:27",
+      "transcript": "This is a sustained campaign against a masterfully adapted biological invader.",
+      "frame": "intermediate/main_video_frames/frame_0028.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 28,
+      "timestamp": "00:00:28",
+      "transcript": "This is a sustained campaign against a masterfully adapted biological invader.",
+      "frame": "intermediate/main_video_frames/frame_0029.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 29,
+      "timestamp": "00:00:29",
+      "transcript": "This is a sustained campaign against a masterfully adapted biological invader.",
+      "frame": "intermediate/main_video_frames/frame_0030.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 30,
+      "timestamp": "00:00:30",
+      "transcript": "This is a sustained campaign against a masterfully adapted biological invader.",
+      "frame": "intermediate/main_video_frames/frame_0031.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 31,
+      "timestamp": "00:00:31",
+      "transcript": "This is a sustained campaign against a masterfully adapted biological invader.",
+      "frame": "intermediate/main_video_frames/frame_0032.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 32,
+      "timestamp": "00:00:32",
+      "transcript": "The situation has evolved into a long-term struggle to preserve the Everglades remaining biodiversity.",
+      "frame": "intermediate/main_video_frames/frame_0033.jpg",
+      "topic": "everglades",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 33,
+      "timestamp": "00:00:33",
+      "transcript": "The situation has evolved into a long-term struggle to preserve the Everglades remaining biodiversity.",
+      "frame": "intermediate/main_video_frames/frame_0034.jpg",
+      "topic": "everglades",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 34,
+      "timestamp": "00:00:34",
+      "transcript": "The situation has evolved into a long-term struggle to preserve the Everglades remaining biodiversity.",
+      "frame": "intermediate/main_video_frames/frame_0035.jpg",
+      "topic": "everglades",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 35,
+      "timestamp": "00:00:35",
+      "transcript": "The situation has evolved into a long-term struggle to preserve the Everglades remaining biodiversity.",
+      "frame": "intermediate/main_video_frames/frame_0036.jpg",
+      "topic": "everglades",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 36,
+      "timestamp": "00:00:36",
+      "transcript": "The situation has evolved into a long-term struggle to preserve the Everglades remaining biodiversity.",
+      "frame": "intermediate/main_video_frames/frame_0037.jpg",
+      "topic": "everglades",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 37,
+      "timestamp": "00:00:37",
+      "transcript": "The crisis traces back to the 1970s and 80s.",
+      "frame": "intermediate/main_video_frames/frame_0038.jpg",
+      "topic": "everglades",
+      "visual_summary": "Everglades landscape and invasive predator introduction"
+    },
+    {
+      "second": 38,
+      "timestamp": "00:00:38",
+      "transcript": "The crisis traces back to the 1970s and 80s.",
+      "frame": "intermediate/main_video_frames/frame_0039.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 39,
+      "timestamp": "00:00:39",
+      "transcript": "The crisis traces back to the 1970s and 80s.",
+      "frame": "intermediate/main_video_frames/frame_0040.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 40,
+      "timestamp": "00:00:40",
+      "transcript": "The crisis traces back to the 1970s and 80s.",
+      "frame": "intermediate/main_video_frames/frame_0041.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 41,
+      "timestamp": "00:00:41",
+      "transcript": "Miami had established itself as a booming hub for the global exotic pet trade,",
+      "frame": "intermediate/main_video_frames/frame_0042.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Vintage Miami port / exotic reptile trade illustration"
+    },
+    {
+      "second": 42,
+      "timestamp": "00:00:42",
+      "transcript": "Miami had established itself as a booming hub for the global exotic pet trade,",
+      "frame": "intermediate/main_video_frames/frame_0043.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Vintage Miami port / exotic reptile trade illustration"
+    },
+    {
+      "second": 43,
+      "timestamp": "00:00:43",
+      "transcript": "Miami had established itself as a booming hub for the global exotic pet trade,",
+      "frame": "intermediate/main_video_frames/frame_0044.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Vintage Miami port / exotic reptile trade illustration"
+    },
+    {
+      "second": 44,
+      "timestamp": "00:00:44",
+      "transcript": "Miami had established itself as a booming hub for the global exotic pet trade,",
+      "frame": "intermediate/main_video_frames/frame_0045.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Vintage Miami port / exotic reptile trade illustration"
+    },
+    {
+      "second": 45,
+      "timestamp": "00:00:45",
+      "transcript": "importing thousands of foreign reptiles into the United States.",
+      "frame": "intermediate/main_video_frames/frame_0046.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 46,
+      "timestamp": "00:00:46",
+      "transcript": "importing thousands of foreign reptiles into the United States.",
+      "frame": "intermediate/main_video_frames/frame_0047.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 47,
+      "timestamp": "00:00:47",
+      "transcript": "importing thousands of foreign reptiles into the United States.",
+      "frame": "intermediate/main_video_frames/frame_0048.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 48,
+      "timestamp": "00:00:48",
+      "transcript": "importing thousands of foreign reptiles into the United States.",
+      "frame": "intermediate/main_video_frames/frame_0049.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 49,
+      "timestamp": "00:00:49",
+      "transcript": "Consumers purchased young snakes, often unprepared for their rapid growth.",
+      "frame": "intermediate/main_video_frames/frame_0050.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 50,
+      "timestamp": "00:00:50",
+      "transcript": "Consumers purchased young snakes, often unprepared for their rapid growth.",
+      "frame": "intermediate/main_video_frames/frame_0051.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 51,
+      "timestamp": "00:00:51",
+      "transcript": "Consumers purchased young snakes, often unprepared for their rapid growth.",
+      "frame": "intermediate/main_video_frames/frame_0052.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 52,
+      "timestamp": "00:00:52",
+      "transcript": "Consumers purchased young snakes, often unprepared for their rapid growth.",
+      "frame": "intermediate/main_video_frames/frame_0053.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 53,
+      "timestamp": "00:00:53",
+      "transcript": "Once these reptiles reached lengths of 10 feet or more and outgrew their enclosures,",
+      "frame": "intermediate/main_video_frames/frame_0054.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 54,
+      "timestamp": "00:00:54",
+      "transcript": "Once these reptiles reached lengths of 10 feet or more and outgrew their enclosures,",
+      "frame": "intermediate/main_video_frames/frame_0055.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 55,
+      "timestamp": "00:00:55",
+      "transcript": "Once these reptiles reached lengths of 10 feet or more and outgrew their enclosures,",
+      "frame": "intermediate/main_video_frames/frame_0056.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 56,
+      "timestamp": "00:00:56",
+      "transcript": "Once these reptiles reached lengths of 10 feet or more and outgrew their enclosures,",
+      "frame": "intermediate/main_video_frames/frame_0057.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 57,
+      "timestamp": "00:00:57",
+      "transcript": "Once these reptiles reached lengths of 10 feet or more and outgrew their enclosures,",
+      "frame": "intermediate/main_video_frames/frame_0058.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 58,
+      "timestamp": "00:00:58",
+      "transcript": "many owners illegally released them into the nearby swamps.",
+      "frame": "intermediate/main_video_frames/frame_0059.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 59,
+      "timestamp": "00:00:59",
+      "transcript": "many owners illegally released them into the nearby swamps.",
+      "frame": "intermediate/main_video_frames/frame_0060.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 60,
+      "timestamp": "00:01:00",
+      "transcript": "many owners illegally released them into the nearby swamps.",
+      "frame": "intermediate/main_video_frames/frame_0061.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 61,
+      "timestamp": "00:01:01",
+      "transcript": "many owners illegally released them into the nearby swamps.",
+      "frame": "intermediate/main_video_frames/frame_0062.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 62,
+      "timestamp": "00:01:02",
+      "transcript": "Those localized releases seeded the wetlands.",
+      "frame": "intermediate/main_video_frames/frame_0063.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 63,
+      "timestamp": "00:01:03",
+      "transcript": "Those localized releases seeded the wetlands.",
+      "frame": "intermediate/main_video_frames/frame_0064.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 64,
+      "timestamp": "00:01:04",
+      "transcript": "Those localized releases seeded the wetlands.",
+      "frame": "intermediate/main_video_frames/frame_0065.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "Miami exotic pet trade and illegal releases"
+    },
+    {
+      "second": 65,
+      "timestamp": "00:01:05",
+      "transcript": "However, the primary catalyst for the current population explosion arrived in August of 1992,",
+      "frame": "intermediate/main_video_frames/frame_0066.jpg",
+      "topic": "pet_trade",
+      "visual_summary": "August 1992 calendar beside hurricane map over Florida"
+    },
+    {
+      "second": 66,
+      "timestamp": "00:01:06",
+      "transcript": "However, the primary catalyst for the current population explosion arrived in August of 1992,",
+      "frame": "intermediate/main_video_frames/frame_0067.jpg",
+      "topic": "hurricane",
+      "visual_summary": "August 1992 calendar beside hurricane map over Florida"
+    },
+    {
+      "second": 67,
+      "timestamp": "00:01:07",
+      "transcript": "However, the primary catalyst for the current population explosion arrived in August of 1992,",
+      "frame": "intermediate/main_video_frames/frame_0068.jpg",
+      "topic": "hurricane",
+      "visual_summary": "August 1992 calendar beside hurricane map over Florida"
+    },
+    {
+      "second": 68,
+      "timestamp": "00:01:08",
+      "transcript": "However, the primary catalyst for the current population explosion arrived in August of 1992,",
+      "frame": "intermediate/main_video_frames/frame_0069.jpg",
+      "topic": "hurricane",
+      "visual_summary": "August 1992 calendar beside hurricane map over Florida"
+    },
+    {
+      "second": 69,
+      "timestamp": "00:01:09",
+      "transcript": "However, the primary catalyst for the current population explosion arrived in August of 1992,",
+      "frame": "intermediate/main_video_frames/frame_0070.jpg",
+      "topic": "hurricane",
+      "visual_summary": "August 1992 calendar beside hurricane map over Florida"
+    },
+    {
+      "second": 70,
+      "timestamp": "00:01:10",
+      "transcript": "However, the primary catalyst for the current population explosion arrived in August of 1992,",
+      "frame": "intermediate/main_video_frames/frame_0071.jpg",
+      "topic": "hurricane",
+      "visual_summary": "August 1992 calendar beside hurricane map over Florida"
+    },
+    {
+      "second": 71,
+      "timestamp": "00:01:11",
+      "transcript": "a Category 5 storm, Hurricane Andrew, tore through South Florida.",
+      "frame": "intermediate/main_video_frames/frame_0072.jpg",
+      "topic": "hurricane",
+      "visual_summary": "August 1992 calendar beside hurricane map over Florida"
+    },
+    {
+      "second": 72,
+      "timestamp": "00:01:12",
+      "transcript": "a Category 5 storm, Hurricane Andrew, tore through South Florida.",
+      "frame": "intermediate/main_video_frames/frame_0073.jpg",
+      "topic": "hurricane",
+      "visual_summary": "August 1992 calendar beside hurricane map over Florida"
+    },
+    {
+      "second": 73,
+      "timestamp": "00:01:13",
+      "transcript": "a Category 5 storm, Hurricane Andrew, tore through South Florida.",
+      "frame": "intermediate/main_video_frames/frame_0074.jpg",
+      "topic": "hurricane",
+      "visual_summary": "August 1992 calendar beside hurricane map over Florida"
+    },
+    {
+      "second": 74,
+      "timestamp": "00:01:14",
+      "transcript": "a Category 5 storm, Hurricane Andrew, tore through South Florida.",
+      "frame": "intermediate/main_video_frames/frame_0075.jpg",
+      "topic": "hurricane",
+      "visual_summary": "August 1992 calendar beside hurricane map over Florida"
+    },
+    {
+      "second": 75,
+      "timestamp": "00:01:15",
+      "transcript": "The winds destroyed a specific python breeding facility,",
+      "frame": "intermediate/main_video_frames/frame_0076.jpg",
+      "topic": "hurricane",
+      "visual_summary": "Hurricane Andrew 1992 and breeding facility breach"
+    },
+    {
+      "second": 76,
+      "timestamp": "00:01:16",
+      "transcript": "The winds destroyed a specific python breeding facility,",
+      "frame": "intermediate/main_video_frames/frame_0077.jpg",
+      "topic": "hurricane",
+      "visual_summary": "Hurricane Andrew 1992 and breeding facility breach"
+    },
+    {
+      "second": 77,
+      "timestamp": "00:01:17",
+      "transcript": "The winds destroyed a specific python breeding facility,",
+      "frame": "intermediate/main_video_frames/frame_0078.jpg",
+      "topic": "hurricane",
+      "visual_summary": "Hurricane Andrew 1992 and breeding facility breach"
+    },
+    {
+      "second": 78,
+      "timestamp": "00:01:18",
+      "transcript": "releasing hundreds of snakes directly into the surrounding swamps all at once.",
+      "frame": "intermediate/main_video_frames/frame_0079.jpg",
+      "topic": "hurricane",
+      "visual_summary": "Hurricane Andrew 1992 and breeding facility breach"
+    },
+    {
+      "second": 79,
+      "timestamp": "00:01:19",
+      "transcript": "releasing hundreds of snakes directly into the surrounding swamps all at once.",
+      "frame": "intermediate/main_video_frames/frame_0080.jpg",
+      "topic": "hurricane",
+      "visual_summary": "Hurricane Andrew 1992 and breeding facility breach"
+    },
+    {
+      "second": 80,
+      "timestamp": "00:01:20",
+      "transcript": "releasing hundreds of snakes directly into the surrounding swamps all at once.",
+      "frame": "intermediate/main_video_frames/frame_0081.jpg",
+      "topic": "hurricane",
+      "visual_summary": "Hurricane Andrew 1992 and breeding facility breach"
+    },
+    {
+      "second": 81,
+      "timestamp": "00:01:21",
+      "transcript": "releasing hundreds of snakes directly into the surrounding swamps all at once.",
+      "frame": "intermediate/main_video_frames/frame_0082.jpg",
+      "topic": "hurricane",
+      "visual_summary": "Hurricane Andrew 1992 and breeding facility breach"
+    },
+    {
+      "second": 82,
+      "timestamp": "00:01:22",
+      "transcript": "releasing hundreds of snakes directly into the surrounding swamps all at once.",
+      "frame": "intermediate/main_video_frames/frame_0083.jpg",
+      "topic": "hurricane",
+      "visual_summary": "Hurricane Andrew 1992 and breeding facility breach"
+    },
+    {
+      "second": 83,
+      "timestamp": "00:01:23",
+      "transcript": "For years, researchers treated sightings as isolated incidents.",
+      "frame": "intermediate/main_video_frames/frame_0084.jpg",
+      "topic": "hurricane",
+      "visual_summary": "Hurricane Andrew 1992 and breeding facility breach"
+    },
+    {
+      "second": 84,
+      "timestamp": "00:01:24",
+      "transcript": "For years, researchers treated sightings as isolated incidents.",
+      "frame": "intermediate/main_video_frames/frame_0085.jpg",
+      "topic": "hurricane",
+      "visual_summary": "Hurricane Andrew 1992 and breeding facility breach"
+    },
+    {
+      "second": 85,
+      "timestamp": "00:01:25",
+      "transcript": "For years, researchers treated sightings as isolated incidents.",
+      "frame": "intermediate/main_video_frames/frame_0086.jpg",
+      "topic": "hurricane",
+      "visual_summary": "Hurricane Andrew 1992 and breeding facility breach"
+    },
+    {
+      "second": 86,
+      "timestamp": "00:01:26",
+      "transcript": "For years, researchers treated sightings as isolated incidents.",
+      "frame": "intermediate/main_video_frames/frame_0087.jpg",
+      "topic": "hurricane",
+      "visual_summary": "Hurricane Andrew 1992 and breeding facility breach"
+    },
+    {
+      "second": 87,
+      "timestamp": "00:01:27",
+      "transcript": "That changed in the year 2000,",
+      "frame": "intermediate/main_video_frames/frame_0088.jpg",
+      "topic": "hurricane",
+      "visual_summary": "Hurricane Andrew 1992 and breeding facility breach"
+    },
+    {
+      "second": 88,
+      "timestamp": "00:01:28",
+      "transcript": "That changed in the year 2000,",
+      "frame": "intermediate/main_video_frames/frame_0089.jpg",
+      "topic": "hurricane",
+      "visual_summary": "Hurricane Andrew 1992 and breeding facility breach"
+    },
+    {
+      "second": 89,
+      "timestamp": "00:01:29",
+      "transcript": "when scientists officially recognized the pythons as an established, reproducing population in the wild.",
+      "frame": "intermediate/main_video_frames/frame_0090.jpg",
+      "topic": "hurricane",
+      "visual_summary": "Hurricane Andrew 1992 and breeding facility breach"
+    },
+    {
+      "second": 90,
+      "timestamp": "00:01:30",
+      "transcript": "when scientists officially recognized the pythons as an established, reproducing population in the wild.",
+      "frame": "intermediate/main_video_frames/frame_0091.jpg",
+      "topic": "hurricane",
+      "visual_summary": "Hurricane Andrew 1992 and breeding facility breach"
+    },
+    {
+      "second": 91,
+      "timestamp": "00:01:31",
+      "transcript": "when scientists officially recognized the pythons as an established, reproducing population in the wild.",
+      "frame": "intermediate/main_video_frames/frame_0092.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 92,
+      "timestamp": "00:01:32",
+      "transcript": "when scientists officially recognized the pythons as an established, reproducing population in the wild.",
+      "frame": "intermediate/main_video_frames/frame_0093.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 93,
+      "timestamp": "00:01:33",
+      "transcript": "when scientists officially recognized the pythons as an established, reproducing population in the wild.",
+      "frame": "intermediate/main_video_frames/frame_0094.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 94,
+      "timestamp": "00:01:34",
+      "transcript": "Confirming a self-sustaining population marks a critical threshold for an invasive species.",
+      "frame": "intermediate/main_video_frames/frame_0095.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 95,
+      "timestamp": "00:01:35",
+      "transcript": "Confirming a self-sustaining population marks a critical threshold for an invasive species.",
+      "frame": "intermediate/main_video_frames/frame_0096.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 96,
+      "timestamp": "00:01:36",
+      "transcript": "Confirming a self-sustaining population marks a critical threshold for an invasive species.",
+      "frame": "intermediate/main_video_frames/frame_0097.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 97,
+      "timestamp": "00:01:37",
+      "transcript": "Confirming a self-sustaining population marks a critical threshold for an invasive species.",
+      "frame": "intermediate/main_video_frames/frame_0098.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 98,
+      "timestamp": "00:01:38",
+      "transcript": "Confirming a self-sustaining population marks a critical threshold for an invasive species.",
+      "frame": "intermediate/main_video_frames/frame_0099.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 99,
+      "timestamp": "00:01:39",
+      "transcript": "At this stage, prevention is no longer possible,",
+      "frame": "intermediate/main_video_frames/frame_0100.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 100,
+      "timestamp": "00:01:40",
+      "transcript": "At this stage, prevention is no longer possible,",
+      "frame": "intermediate/main_video_frames/frame_0101.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 101,
+      "timestamp": "00:01:41",
+      "transcript": "At this stage, prevention is no longer possible,",
+      "frame": "intermediate/main_video_frames/frame_0102.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 102,
+      "timestamp": "00:01:42",
+      "transcript": "and the state must shift resources toward active management and containment.",
+      "frame": "intermediate/main_video_frames/frame_0103.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 103,
+      "timestamp": "00:01:43",
+      "transcript": "and the state must shift resources toward active management and containment.",
+      "frame": "intermediate/main_video_frames/frame_0104.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 104,
+      "timestamp": "00:01:44",
+      "transcript": "and the state must shift resources toward active management and containment.",
+      "frame": "intermediate/main_video_frames/frame_0105.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 105,
+      "timestamp": "00:01:45",
+      "transcript": "and the state must shift resources toward active management and containment.",
+      "frame": "intermediate/main_video_frames/frame_0106.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 106,
+      "timestamp": "00:01:46",
+      "transcript": "The Burmese python possesses severe biological advantages in Florida.",
+      "frame": "intermediate/main_video_frames/frame_0107.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 107,
+      "timestamp": "00:01:47",
+      "transcript": "The Burmese python possesses severe biological advantages in Florida.",
+      "frame": "intermediate/main_video_frames/frame_0108.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 108,
+      "timestamp": "00:01:48",
+      "transcript": "The Burmese python possesses severe biological advantages in Florida.",
+      "frame": "intermediate/main_video_frames/frame_0109.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 109,
+      "timestamp": "00:01:49",
+      "transcript": "They have no natural predators here.",
+      "frame": "intermediate/main_video_frames/frame_0110.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 110,
+      "timestamp": "00:01:50",
+      "transcript": "They have no natural predators here.",
+      "frame": "intermediate/main_video_frames/frame_0111.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 111,
+      "timestamp": "00:01:51",
+      "transcript": "They have no natural predators here.",
+      "frame": "intermediate/main_video_frames/frame_0112.jpg",
+      "topic": "population",
+      "visual_summary": "Established python population and management shift"
+    },
+    {
+      "second": 112,
+      "timestamp": "00:01:52",
+      "transcript": "Their cryptic coloration provides near-perfect camouflage in the brush,",
+      "frame": "intermediate/main_video_frames/frame_0113.jpg",
+      "topic": "population",
+      "visual_summary": "Camouflaged Burmese python hidden in leaf litter"
+    },
+    {
+      "second": 113,
+      "timestamp": "00:01:53",
+      "transcript": "Their cryptic coloration provides near-perfect camouflage in the brush,",
+      "frame": "intermediate/main_video_frames/frame_0114.jpg",
+      "topic": "population",
+      "visual_summary": "Camouflaged Burmese python hidden in leaf litter"
+    },
+    {
+      "second": 114,
+      "timestamp": "00:01:54",
+      "transcript": "Their cryptic coloration provides near-perfect camouflage in the brush,",
+      "frame": "intermediate/main_video_frames/frame_0115.jpg",
+      "topic": "population",
+      "visual_summary": "Camouflaged Burmese python hidden in leaf litter"
+    },
+    {
+      "second": 115,
+      "timestamp": "00:01:55",
+      "transcript": "Their cryptic coloration provides near-perfect camouflage in the brush,",
+      "frame": "intermediate/main_video_frames/frame_0116.jpg",
+      "topic": "population",
+      "visual_summary": "Camouflaged Burmese python hidden in leaf litter"
+    },
+    {
+      "second": 116,
+      "timestamp": "00:01:56",
+      "transcript": "and a single female can produce up to 100 eggs per clutch.",
+      "frame": "intermediate/main_video_frames/frame_0117.jpg",
+      "topic": "population",
+      "visual_summary": "Python reproduction / egg clutch illustration"
+    },
+    {
+      "second": 117,
+      "timestamp": "00:01:57",
+      "transcript": "and a single female can produce up to 100 eggs per clutch.",
+      "frame": "intermediate/main_video_frames/frame_0118.jpg",
+      "topic": "population",
+      "visual_summary": "Python reproduction / egg clutch illustration"
+    },
+    {
+      "second": 118,
+      "timestamp": "00:01:58",
+      "transcript": "and a single female can produce up to 100 eggs per clutch.",
+      "frame": "intermediate/main_video_frames/frame_0119.jpg",
+      "topic": "population",
+      "visual_summary": "Python reproduction / egg clutch illustration"
+    },
+    {
+      "second": 119,
+      "timestamp": "00:01:59",
+      "transcript": "and a single female can produce up to 100 eggs per clutch.",
+      "frame": "intermediate/main_video_frames/frame_0120.jpg",
+      "topic": "population",
+      "visual_summary": "Python reproduction / egg clutch illustration"
+    },
+    {
+      "second": 120,
+      "timestamp": "00:02:00",
+      "transcript": "This graph tracks native mammal observations against the timeline of the python's expansion.",
+      "frame": "intermediate/main_video_frames/frame_0121.jpg",
+      "topic": "population",
+      "visual_summary": "Declining native mammal population chart or infographic"
+    },
+    {
+      "second": 121,
+      "timestamp": "00:02:01",
+      "transcript": "This graph tracks native mammal observations against the timeline of the python's expansion.",
+      "frame": "intermediate/main_video_frames/frame_0122.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Declining native mammal population chart or infographic"
+    },
+    {
+      "second": 122,
+      "timestamp": "00:02:02",
+      "transcript": "This graph tracks native mammal observations against the timeline of the python's expansion.",
+      "frame": "intermediate/main_video_frames/frame_0123.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Declining native mammal population chart or infographic"
+    },
+    {
+      "second": 123,
+      "timestamp": "00:02:03",
+      "transcript": "This graph tracks native mammal observations against the timeline of the python's expansion.",
+      "frame": "intermediate/main_video_frames/frame_0124.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Declining native mammal population chart or infographic"
+    },
+    {
+      "second": 124,
+      "timestamp": "00:02:04",
+      "transcript": "This graph tracks native mammal observations against the timeline of the python's expansion.",
+      "frame": "intermediate/main_video_frames/frame_0125.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Declining native mammal population chart or infographic"
+    },
+    {
+      "second": 125,
+      "timestamp": "00:02:05",
+      "transcript": "Since 1997, observations of raccoons and opossums have collapsed by 99%.",
+      "frame": "intermediate/main_video_frames/frame_0126.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Declining native mammal population chart or infographic"
+    },
+    {
+      "second": 126,
+      "timestamp": "00:02:06",
+      "transcript": "Since 1997, observations of raccoons and opossums have collapsed by 99%.",
+      "frame": "intermediate/main_video_frames/frame_0127.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Declining native mammal population chart or infographic"
+    },
+    {
+      "second": 127,
+      "timestamp": "00:02:07",
+      "transcript": "Since 1997, observations of raccoons and opossums have collapsed by 99%.",
+      "frame": "intermediate/main_video_frames/frame_0128.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Declining native mammal population chart or infographic"
+    },
+    {
+      "second": 128,
+      "timestamp": "00:02:08",
+      "transcript": "Since 1997, observations of raccoons and opossums have collapsed by 99%.",
+      "frame": "intermediate/main_video_frames/frame_0129.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Declining native mammal population chart or infographic"
+    },
+    {
+      "second": 129,
+      "timestamp": "00:02:09",
+      "transcript": "Since 1997, observations of raccoons and opossums have collapsed by 99%.",
+      "frame": "intermediate/main_video_frames/frame_0130.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Declining native mammal population chart or infographic"
+    },
+    {
+      "second": 130,
+      "timestamp": "00:02:10",
+      "transcript": "Since 1997, observations of raccoons and opossums have collapsed by 99%.",
+      "frame": "intermediate/main_video_frames/frame_0131.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Declining native mammal population chart or infographic"
+    },
+    {
+      "second": 131,
+      "timestamp": "00:02:11",
+      "transcript": "Since 1997, observations of raccoons and opossums have collapsed by 99%.",
+      "frame": "intermediate/main_video_frames/frame_0132.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Declining native mammal population chart or infographic"
+    },
+    {
+      "second": 132,
+      "timestamp": "00:02:12",
+      "transcript": "Bobcat sightings have dropped by 87%.",
+      "frame": "intermediate/main_video_frames/frame_0133.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 133,
+      "timestamp": "00:02:13",
+      "transcript": "Bobcat sightings have dropped by 87%.",
+      "frame": "intermediate/main_video_frames/frame_0134.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 134,
+      "timestamp": "00:02:14",
+      "transcript": "Bobcat sightings have dropped by 87%.",
+      "frame": "intermediate/main_video_frames/frame_0135.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 135,
+      "timestamp": "00:02:15",
+      "transcript": "For other species, the numbers have hit zero.",
+      "frame": "intermediate/main_video_frames/frame_0136.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 136,
+      "timestamp": "00:02:16",
+      "transcript": "For other species, the numbers have hit zero.",
+      "frame": "intermediate/main_video_frames/frame_0137.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 137,
+      "timestamp": "00:02:17",
+      "transcript": "Marsh rabbits and foxes are now considered locally extinct",
+      "frame": "intermediate/main_video_frames/frame_0138.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 138,
+      "timestamp": "00:02:18",
+      "transcript": "Marsh rabbits and foxes are now considered locally extinct",
+      "frame": "intermediate/main_video_frames/frame_0139.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 139,
+      "timestamp": "00:02:19",
+      "transcript": "Marsh rabbits and foxes are now considered locally extinct",
+      "frame": "intermediate/main_video_frames/frame_0140.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 140,
+      "timestamp": "00:02:20",
+      "transcript": "Marsh rabbits and foxes are now considered locally extinct",
+      "frame": "intermediate/main_video_frames/frame_0141.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 141,
+      "timestamp": "00:02:21",
+      "transcript": "across most areas where the pythons have successfully invaded.",
+      "frame": "intermediate/main_video_frames/frame_0142.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 142,
+      "timestamp": "00:02:22",
+      "transcript": "across most areas where the pythons have successfully invaded.",
+      "frame": "intermediate/main_video_frames/frame_0143.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 143,
+      "timestamp": "00:02:23",
+      "transcript": "across most areas where the pythons have successfully invaded.",
+      "frame": "intermediate/main_video_frames/frame_0144.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 144,
+      "timestamp": "00:02:24",
+      "transcript": "Because pythons are dietary generalists,",
+      "frame": "intermediate/main_video_frames/frame_0145.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 145,
+      "timestamp": "00:02:25",
+      "transcript": "Because pythons are dietary generalists,",
+      "frame": "intermediate/main_video_frames/frame_0146.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 146,
+      "timestamp": "00:02:26",
+      "transcript": "Because pythons are dietary generalists,",
+      "frame": "intermediate/main_video_frames/frame_0147.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 147,
+      "timestamp": "00:02:27",
+      "transcript": "they do not starve when small mammals disappear.",
+      "frame": "intermediate/main_video_frames/frame_0148.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 148,
+      "timestamp": "00:02:28",
+      "transcript": "they do not starve when small mammals disappear.",
+      "frame": "intermediate/main_video_frames/frame_0149.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 149,
+      "timestamp": "00:02:29",
+      "transcript": "they do not starve when small mammals disappear.",
+      "frame": "intermediate/main_video_frames/frame_0150.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 150,
+      "timestamp": "00:02:30",
+      "transcript": "They simply move up the food chain, successfully hunting and consuming",
+      "frame": "intermediate/main_video_frames/frame_0151.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 151,
+      "timestamp": "00:02:31",
+      "transcript": "They simply move up the food chain, successfully hunting and consuming",
+      "frame": "intermediate/main_video_frames/frame_0152.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 152,
+      "timestamp": "00:02:32",
+      "transcript": "They simply move up the food chain, successfully hunting and consuming",
+      "frame": "intermediate/main_video_frames/frame_0153.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python camouflage, reproduction, and advantages"
+    },
+    {
+      "second": 153,
+      "timestamp": "00:02:33",
+      "transcript": "the region's native apex predators, including the American alligator.",
+      "frame": "intermediate/main_video_frames/frame_0154.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python vs alligator predation illustration"
+    },
+    {
+      "second": 154,
+      "timestamp": "00:02:34",
+      "transcript": "the region's native apex predators, including the American alligator.",
+      "frame": "intermediate/main_video_frames/frame_0155.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python vs alligator predation illustration"
+    },
+    {
+      "second": 155,
+      "timestamp": "00:02:35",
+      "transcript": "the region's native apex predators, including the American alligator.",
+      "frame": "intermediate/main_video_frames/frame_0156.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python vs alligator predation illustration"
+    },
+    {
+      "second": 156,
+      "timestamp": "00:02:36",
+      "transcript": "the region's native apex predators, including the American alligator.",
+      "frame": "intermediate/main_video_frames/frame_0157.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python vs alligator predation illustration"
+    },
+    {
+      "second": 157,
+      "timestamp": "00:02:37",
+      "transcript": "the region's native apex predators, including the American alligator.",
+      "frame": "intermediate/main_video_frames/frame_0158.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Python vs alligator predation illustration"
+    },
+    {
+      "second": 158,
+      "timestamp": "00:02:38",
+      "transcript": "They also introduced a secondary invisible threat, an Asian lungworm parasite.",
+      "frame": "intermediate/main_video_frames/frame_0159.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Parasite / pathology scientific illustration"
+    },
+    {
+      "second": 159,
+      "timestamp": "00:02:39",
+      "transcript": "They also introduced a secondary invisible threat, an Asian lungworm parasite.",
+      "frame": "intermediate/main_video_frames/frame_0160.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Parasite / pathology scientific illustration"
+    },
+    {
+      "second": 160,
+      "timestamp": "00:02:40",
+      "transcript": "They also introduced a secondary invisible threat, an Asian lungworm parasite.",
+      "frame": "intermediate/main_video_frames/frame_0161.jpg",
+      "topic": "python_biology",
+      "visual_summary": "Parasite / pathology scientific illustration"
+    },
+    {
+      "second": 161,
+      "timestamp": "00:02:41",
+      "transcript": "They also introduced a secondary invisible threat, an Asian lungworm parasite.",
+      "frame": "intermediate/main_video_frames/frame_0162.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Parasite / pathology scientific illustration"
+    },
+    {
+      "second": 162,
+      "timestamp": "00:02:42",
+      "transcript": "They also introduced a secondary invisible threat, an Asian lungworm parasite.",
+      "frame": "intermediate/main_video_frames/frame_0163.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Parasite / pathology scientific illustration"
+    },
+    {
+      "second": 163,
+      "timestamp": "00:02:43",
+      "transcript": "It is now infecting and killing native Florida snakes that have no natural immunity to the pathogen.",
+      "frame": "intermediate/main_video_frames/frame_0164.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Native mammal decline charts and local extinctions"
+    },
+    {
+      "second": 164,
+      "timestamp": "00:02:44",
+      "transcript": "It is now infecting and killing native Florida snakes that have no natural immunity to the pathogen.",
+      "frame": "intermediate/main_video_frames/frame_0165.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Native mammal decline charts and local extinctions"
+    },
+    {
+      "second": 165,
+      "timestamp": "00:02:45",
+      "transcript": "It is now infecting and killing native Florida snakes that have no natural immunity to the pathogen.",
+      "frame": "intermediate/main_video_frames/frame_0166.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Native mammal decline charts and local extinctions"
+    },
+    {
+      "second": 166,
+      "timestamp": "00:02:46",
+      "transcript": "It is now infecting and killing native Florida snakes that have no natural immunity to the pathogen.",
+      "frame": "intermediate/main_video_frames/frame_0167.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Native mammal decline charts and local extinctions"
+    },
+    {
+      "second": 167,
+      "timestamp": "00:02:47",
+      "transcript": "It is now infecting and killing native Florida snakes that have no natural immunity to the pathogen.",
+      "frame": "intermediate/main_video_frames/frame_0168.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Native mammal decline charts and local extinctions"
+    },
+    {
+      "second": 168,
+      "timestamp": "00:02:48",
+      "transcript": "The python is actively unraveling the Everglades entire food web,",
+      "frame": "intermediate/main_video_frames/frame_0169.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 169,
+      "timestamp": "00:02:49",
+      "transcript": "The python is actively unraveling the Everglades entire food web,",
+      "frame": "intermediate/main_video_frames/frame_0170.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 170,
+      "timestamp": "00:02:50",
+      "transcript": "The python is actively unraveling the Everglades entire food web,",
+      "frame": "intermediate/main_video_frames/frame_0171.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 171,
+      "timestamp": "00:02:51",
+      "transcript": "The python is actively unraveling the Everglades entire food web,",
+      "frame": "intermediate/main_video_frames/frame_0172.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 172,
+      "timestamp": "00:02:52",
+      "transcript": "removing prey and competing predators simultaneously.",
+      "frame": "intermediate/main_video_frames/frame_0173.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Native mammal decline charts and local extinctions"
+    },
+    {
+      "second": 173,
+      "timestamp": "00:02:53",
+      "transcript": "removing prey and competing predators simultaneously.",
+      "frame": "intermediate/main_video_frames/frame_0174.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Native mammal decline charts and local extinctions"
+    },
+    {
+      "second": 174,
+      "timestamp": "00:02:54",
+      "transcript": "removing prey and competing predators simultaneously.",
+      "frame": "intermediate/main_video_frames/frame_0175.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Native mammal decline charts and local extinctions"
+    },
+    {
+      "second": 175,
+      "timestamp": "00:02:55",
+      "transcript": "In response, Florida has mobilized civilian forces to manually clear the swamps,",
+      "frame": "intermediate/main_video_frames/frame_0176.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Native mammal decline charts and local extinctions"
+    },
+    {
+      "second": 176,
+      "timestamp": "00:02:56",
+      "transcript": "In response, Florida has mobilized civilian forces to manually clear the swamps,",
+      "frame": "intermediate/main_video_frames/frame_0177.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Native mammal decline charts and local extinctions"
+    },
+    {
+      "second": 177,
+      "timestamp": "00:02:57",
+      "transcript": "In response, Florida has mobilized civilian forces to manually clear the swamps,",
+      "frame": "intermediate/main_video_frames/frame_0178.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Native mammal decline charts and local extinctions"
+    },
+    {
+      "second": 178,
+      "timestamp": "00:02:58",
+      "transcript": "In response, Florida has mobilized civilian forces to manually clear the swamps,",
+      "frame": "intermediate/main_video_frames/frame_0179.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Native mammal decline charts and local extinctions"
+    },
+    {
+      "second": 179,
+      "timestamp": "00:02:59",
+      "transcript": "In response, Florida has mobilized civilian forces to manually clear the swamps,",
+      "frame": "intermediate/main_video_frames/frame_0180.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Native mammal decline charts and local extinctions"
+    },
+    {
+      "second": 180,
+      "timestamp": "00:03:00",
+      "transcript": "most notably through the annual Florida python challenge.",
+      "frame": "intermediate/main_video_frames/frame_0181.jpg",
+      "topic": "ecosystem_collapse",
+      "visual_summary": "Python Challenge hunters and removal statistics graphics"
+    },
+    {
+      "second": 181,
+      "timestamp": "00:03:01",
+      "transcript": "most notably through the annual Florida python challenge.",
+      "frame": "intermediate/main_video_frames/frame_0182.jpg",
+      "topic": "alligator",
+      "visual_summary": "Python Challenge hunters and removal statistics graphics"
+    },
+    {
+      "second": 182,
+      "timestamp": "00:03:02",
+      "transcript": "most notably through the annual Florida python challenge.",
+      "frame": "intermediate/main_video_frames/frame_0183.jpg",
+      "topic": "alligator",
+      "visual_summary": "Python Challenge hunters and removal statistics graphics"
+    },
+    {
+      "second": 183,
+      "timestamp": "00:03:03",
+      "transcript": "most notably through the annual Florida python challenge.",
+      "frame": "intermediate/main_video_frames/frame_0184.jpg",
+      "topic": "alligator",
+      "visual_summary": "Python Challenge hunters and removal statistics graphics"
+    },
+    {
+      "second": 184,
+      "timestamp": "00:03:04",
+      "transcript": "Nearly one Gaussian participants travel from across the globe to compete in this 10-day event,",
+      "frame": "intermediate/main_video_frames/frame_0185.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 185,
+      "timestamp": "00:03:05",
+      "transcript": "Nearly one Gaussian participants travel from across the globe to compete in this 10-day event,",
+      "frame": "intermediate/main_video_frames/frame_0186.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 186,
+      "timestamp": "00:03:06",
+      "transcript": "Nearly one Gaussian participants travel from across the globe to compete in this 10-day event,",
+      "frame": "intermediate/main_video_frames/frame_0187.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 187,
+      "timestamp": "00:03:07",
+      "transcript": "Nearly one Gaussian participants travel from across the globe to compete in this 10-day event,",
+      "frame": "intermediate/main_video_frames/frame_0188.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 188,
+      "timestamp": "00:03:08",
+      "transcript": "hunting snakes for a chance at $10,000 in prize money.",
+      "frame": "intermediate/main_video_frames/frame_0189.jpg",
+      "topic": "alligator",
+      "visual_summary": "Python Challenge hunters and removal statistics graphics"
+    },
+    {
+      "second": 189,
+      "timestamp": "00:03:09",
+      "transcript": "hunting snakes for a chance at $10,000 in prize money.",
+      "frame": "intermediate/main_video_frames/frame_0190.jpg",
+      "topic": "alligator",
+      "visual_summary": "Python Challenge hunters and removal statistics graphics"
+    },
+    {
+      "second": 190,
+      "timestamp": "00:03:10",
+      "transcript": "hunting snakes for a chance at $10,000 in prize money.",
+      "frame": "intermediate/main_video_frames/frame_0191.jpg",
+      "topic": "alligator",
+      "visual_summary": "Python Challenge hunters and removal statistics graphics"
+    },
+    {
+      "second": 191,
+      "timestamp": "00:03:11",
+      "transcript": "hunting snakes for a chance at $10,000 in prize money.",
+      "frame": "intermediate/main_video_frames/frame_0192.jpg",
+      "topic": "alligator",
+      "visual_summary": "Python Challenge hunters and removal statistics graphics"
+    },
+    {
+      "second": 192,
+      "timestamp": "00:03:12",
+      "transcript": "Between these civilian events and state-funded professional contractors,",
+      "frame": "intermediate/main_video_frames/frame_0193.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 193,
+      "timestamp": "00:03:13",
+      "transcript": "Between these civilian events and state-funded professional contractors,",
+      "frame": "intermediate/main_video_frames/frame_0194.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 194,
+      "timestamp": "00:03:14",
+      "transcript": "Between these civilian events and state-funded professional contractors,",
+      "frame": "intermediate/main_video_frames/frame_0195.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 195,
+      "timestamp": "00:03:15",
+      "transcript": "Between these civilian events and state-funded professional contractors,",
+      "frame": "intermediate/main_video_frames/frame_0196.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 196,
+      "timestamp": "00:03:16",
+      "transcript": "more than 23,000 pythons have been captured and removed from Florida's public lands.",
+      "frame": "intermediate/main_video_frames/frame_0197.jpg",
+      "topic": "alligator",
+      "visual_summary": "Python Challenge hunters and removal statistics graphics"
+    },
+    {
+      "second": 197,
+      "timestamp": "00:03:17",
+      "transcript": "more than 23,000 pythons have been captured and removed from Florida's public lands.",
+      "frame": "intermediate/main_video_frames/frame_0198.jpg",
+      "topic": "alligator",
+      "visual_summary": "Python Challenge hunters and removal statistics graphics"
+    },
+    {
+      "second": 198,
+      "timestamp": "00:03:18",
+      "transcript": "more than 23,000 pythons have been captured and removed from Florida's public lands.",
+      "frame": "intermediate/main_video_frames/frame_0199.jpg",
+      "topic": "alligator",
+      "visual_summary": "Python Challenge hunters and removal statistics graphics"
+    },
+    {
+      "second": 199,
+      "timestamp": "00:03:19",
+      "transcript": "more than 23,000 pythons have been captured and removed from Florida's public lands.",
+      "frame": "intermediate/main_video_frames/frame_0200.jpg",
+      "topic": "alligator",
+      "visual_summary": "Python Challenge hunters and removal statistics graphics"
+    },
+    {
+      "second": 200,
+      "timestamp": "00:03:20",
+      "transcript": "This visualization represents the scale of those removal efforts.",
+      "frame": "intermediate/main_video_frames/frame_0201.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 201,
+      "timestamp": "00:03:21",
+      "transcript": "This visualization represents the scale of those removal efforts.",
+      "frame": "intermediate/main_video_frames/frame_0202.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 202,
+      "timestamp": "00:03:22",
+      "transcript": "This visualization represents the scale of those removal efforts.",
+      "frame": "intermediate/main_video_frames/frame_0203.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 203,
+      "timestamp": "00:03:23",
+      "transcript": "This visualization represents the scale of those removal efforts.",
+      "frame": "intermediate/main_video_frames/frame_0204.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 204,
+      "timestamp": "00:03:24",
+      "transcript": "These 23,000 removed snakes represent a tiny fraction of the total problem.",
+      "frame": "intermediate/main_video_frames/frame_0205.jpg",
+      "topic": "alligator",
+      "visual_summary": "Python Challenge hunters and removal statistics graphics"
+    },
+    {
+      "second": 205,
+      "timestamp": "00:03:25",
+      "transcript": "These 23,000 removed snakes represent a tiny fraction of the total problem.",
+      "frame": "intermediate/main_video_frames/frame_0206.jpg",
+      "topic": "alligator",
+      "visual_summary": "Python Challenge hunters and removal statistics graphics"
+    },
+    {
+      "second": 206,
+      "timestamp": "00:03:26",
+      "transcript": "These 23,000 removed snakes represent a tiny fraction of the total problem.",
+      "frame": "intermediate/main_video_frames/frame_0207.jpg",
+      "topic": "alligator",
+      "visual_summary": "Python Challenge hunters and removal statistics graphics"
+    },
+    {
+      "second": 207,
+      "timestamp": "00:03:27",
+      "transcript": "These 23,000 removed snakes represent a tiny fraction of the total problem.",
+      "frame": "intermediate/main_video_frames/frame_0208.jpg",
+      "topic": "alligator",
+      "visual_summary": "Python Challenge hunters and removal statistics graphics"
+    },
+    {
+      "second": 208,
+      "timestamp": "00:03:28",
+      "transcript": "These 23,000 removed snakes represent a tiny fraction of the total problem.",
+      "frame": "intermediate/main_video_frames/frame_0209.jpg",
+      "topic": "alligator",
+      "visual_summary": "Python Challenge hunters and removal statistics graphics"
+    },
+    {
+      "second": 209,
+      "timestamp": "00:03:29",
+      "transcript": "As we zoom out, statistical estimates suggest we are catching less than 1% of the actual population.",
+      "frame": "intermediate/main_video_frames/frame_0210.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 210,
+      "timestamp": "00:03:30",
+      "transcript": "As we zoom out, statistical estimates suggest we are catching less than 1% of the actual population.",
+      "frame": "intermediate/main_video_frames/frame_0211.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 211,
+      "timestamp": "00:03:31",
+      "transcript": "As we zoom out, statistical estimates suggest we are catching less than 1% of the actual population.",
+      "frame": "intermediate/main_video_frames/frame_0212.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 212,
+      "timestamp": "00:03:32",
+      "transcript": "As we zoom out, statistical estimates suggest we are catching less than 1% of the actual population.",
+      "frame": "intermediate/main_video_frames/frame_0213.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 213,
+      "timestamp": "00:03:33",
+      "transcript": "As we zoom out, statistical estimates suggest we are catching less than 1% of the actual population.",
+      "frame": "intermediate/main_video_frames/frame_0214.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 214,
+      "timestamp": "00:03:34",
+      "transcript": "The python's camouflage makes it nearly invisible to the human eye,",
+      "frame": "intermediate/main_video_frames/frame_0215.jpg",
+      "topic": "alligator",
+      "visual_summary": "Camouflaged Burmese python hidden in leaf litter"
+    },
+    {
+      "second": 215,
+      "timestamp": "00:03:35",
+      "transcript": "The python's camouflage makes it nearly invisible to the human eye,",
+      "frame": "intermediate/main_video_frames/frame_0216.jpg",
+      "topic": "alligator",
+      "visual_summary": "Camouflaged Burmese python hidden in leaf litter"
+    },
+    {
+      "second": 216,
+      "timestamp": "00:03:36",
+      "transcript": "The python's camouflage makes it nearly invisible to the human eye,",
+      "frame": "intermediate/main_video_frames/frame_0217.jpg",
+      "topic": "alligator",
+      "visual_summary": "Camouflaged Burmese python hidden in leaf litter"
+    },
+    {
+      "second": 217,
+      "timestamp": "00:03:37",
+      "transcript": "The python's camouflage makes it nearly invisible to the human eye,",
+      "frame": "intermediate/main_video_frames/frame_0218.jpg",
+      "topic": "alligator",
+      "visual_summary": "Camouflaged Burmese python hidden in leaf litter"
+    },
+    {
+      "second": 218,
+      "timestamp": "00:03:38",
+      "transcript": "meaning brute force hunting alone cannot keep pace with the population growth.",
+      "frame": "intermediate/main_video_frames/frame_0219.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 219,
+      "timestamp": "00:03:39",
+      "transcript": "meaning brute force hunting alone cannot keep pace with the population growth.",
+      "frame": "intermediate/main_video_frames/frame_0220.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 220,
+      "timestamp": "00:03:40",
+      "transcript": "meaning brute force hunting alone cannot keep pace with the population growth.",
+      "frame": "intermediate/main_video_frames/frame_0221.jpg",
+      "topic": "alligator",
+      "visual_summary": "Alligator predation, lungworm parasite, food web collapse"
+    },
+    {
+      "second": 221,
+      "timestamp": "00:03:41",
+      "transcript": "meaning brute force hunting alone cannot keep pace with the population growth.",
+      "frame": "intermediate/main_video_frames/frame_0222.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 222,
+      "timestamp": "00:03:42",
+      "transcript": "Scientists are now searching for a different way to find the snakes.",
+      "frame": "intermediate/main_video_frames/frame_0223.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 223,
+      "timestamp": "00:03:43",
+      "transcript": "Scientists are now searching for a different way to find the snakes.",
+      "frame": "intermediate/main_video_frames/frame_0224.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 224,
+      "timestamp": "00:03:44",
+      "transcript": "Scientists are now searching for a different way to find the snakes.",
+      "frame": "intermediate/main_video_frames/frame_0225.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 225,
+      "timestamp": "00:03:45",
+      "transcript": "Scientists are now searching for a different way to find the snakes.",
+      "frame": "intermediate/main_video_frames/frame_0226.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 226,
+      "timestamp": "00:03:46",
+      "transcript": "Wildlife agencies have pivoted toward high-tech surveillance and biological tracking",
+      "frame": "intermediate/main_video_frames/frame_0227.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 227,
+      "timestamp": "00:03:47",
+      "transcript": "Wildlife agencies have pivoted toward high-tech surveillance and biological tracking",
+      "frame": "intermediate/main_video_frames/frame_0228.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 228,
+      "timestamp": "00:03:48",
+      "transcript": "Wildlife agencies have pivoted toward high-tech surveillance and biological tracking",
+      "frame": "intermediate/main_video_frames/frame_0229.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 229,
+      "timestamp": "00:03:49",
+      "transcript": "Wildlife agencies have pivoted toward high-tech surveillance and biological tracking",
+      "frame": "intermediate/main_video_frames/frame_0230.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 230,
+      "timestamp": "00:03:50",
+      "transcript": "Wildlife agencies have pivoted toward high-tech surveillance and biological tracking",
+      "frame": "intermediate/main_video_frames/frame_0231.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 231,
+      "timestamp": "00:03:51",
+      "transcript": "to bypass the python's natural defenses.",
+      "frame": "intermediate/main_video_frames/frame_0232.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 232,
+      "timestamp": "00:03:52",
+      "transcript": "to bypass the python's natural defenses.",
+      "frame": "intermediate/main_video_frames/frame_0233.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 233,
+      "timestamp": "00:03:53",
+      "transcript": "to bypass the python's natural defenses.",
+      "frame": "intermediate/main_video_frames/frame_0234.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 234,
+      "timestamp": "00:03:54",
+      "transcript": "Under the scout snake program, researchers capture male pythons,",
+      "frame": "intermediate/main_video_frames/frame_0235.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Surgical radio transmitter implant on captured python"
+    },
+    {
+      "second": 235,
+      "timestamp": "00:03:55",
+      "transcript": "Under the scout snake program, researchers capture male pythons,",
+      "frame": "intermediate/main_video_frames/frame_0236.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Surgical radio transmitter implant on captured python"
+    },
+    {
+      "second": 236,
+      "timestamp": "00:03:56",
+      "transcript": "Under the scout snake program, researchers capture male pythons,",
+      "frame": "intermediate/main_video_frames/frame_0237.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Surgical radio transmitter implant on captured python"
+    },
+    {
+      "second": 237,
+      "timestamp": "00:03:57",
+      "transcript": "Under the scout snake program, researchers capture male pythons,",
+      "frame": "intermediate/main_video_frames/frame_0238.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Surgical radio transmitter implant on captured python"
+    },
+    {
+      "second": 238,
+      "timestamp": "00:03:58",
+      "transcript": "implant them with radio transmitters, and release them.",
+      "frame": "intermediate/main_video_frames/frame_0239.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Surgical radio transmitter implant on captured python"
+    },
+    {
+      "second": 239,
+      "timestamp": "00:03:59",
+      "transcript": "implant them with radio transmitters, and release them.",
+      "frame": "intermediate/main_video_frames/frame_0240.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Surgical radio transmitter implant on captured python"
+    },
+    {
+      "second": 240,
+      "timestamp": "00:04:00",
+      "transcript": "implant them with radio transmitters, and release them.",
+      "frame": "intermediate/main_video_frames/frame_0241.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Surgical radio transmitter implant on captured python"
+    },
+    {
+      "second": 241,
+      "timestamp": "00:04:01",
+      "transcript": "These males then lead biologists directly to hidden breeding aggregations.",
+      "frame": "intermediate/main_video_frames/frame_0242.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 242,
+      "timestamp": "00:04:02",
+      "transcript": "These males then lead biologists directly to hidden breeding aggregations.",
+      "frame": "intermediate/main_video_frames/frame_0243.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 243,
+      "timestamp": "00:04:03",
+      "transcript": "These males then lead biologists directly to hidden breeding aggregations.",
+      "frame": "intermediate/main_video_frames/frame_0244.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 244,
+      "timestamp": "00:04:04",
+      "transcript": "These males then lead biologists directly to hidden breeding aggregations.",
+      "frame": "intermediate/main_video_frames/frame_0245.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 245,
+      "timestamp": "00:04:05",
+      "transcript": "The state has also deployed specially-trained canine units,",
+      "frame": "intermediate/main_video_frames/frame_0246.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 246,
+      "timestamp": "00:04:06",
+      "transcript": "The state has also deployed specially-trained canine units,",
+      "frame": "intermediate/main_video_frames/frame_0247.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 247,
+      "timestamp": "00:04:07",
+      "transcript": "The state has also deployed specially-trained canine units,",
+      "frame": "intermediate/main_video_frames/frame_0248.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 248,
+      "timestamp": "00:04:08",
+      "transcript": "The state has also deployed specially-trained canine units,",
+      "frame": "intermediate/main_video_frames/frame_0249.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 249,
+      "timestamp": "00:04:09",
+      "transcript": "relying on scent detection to locate snakes buried in dense brush,",
+      "frame": "intermediate/main_video_frames/frame_0250.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 250,
+      "timestamp": "00:04:10",
+      "transcript": "relying on scent detection to locate snakes buried in dense brush,",
+      "frame": "intermediate/main_video_frames/frame_0251.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 251,
+      "timestamp": "00:04:11",
+      "transcript": "relying on scent detection to locate snakes buried in dense brush,",
+      "frame": "intermediate/main_video_frames/frame_0252.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 252,
+      "timestamp": "00:04:12",
+      "transcript": "where humans simply cannot see them.",
+      "frame": "intermediate/main_video_frames/frame_0253.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 253,
+      "timestamp": "00:04:13",
+      "transcript": "where humans simply cannot see them.",
+      "frame": "intermediate/main_video_frames/frame_0254.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 254,
+      "timestamp": "00:04:14",
+      "transcript": "Engineering teams have mounted 850 nanometer near-infrared cameras to state vehicles.",
+      "frame": "intermediate/main_video_frames/frame_0255.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Thermal/infrared python detection on patrol vehicle"
+    },
+    {
+      "second": 255,
+      "timestamp": "00:04:15",
+      "transcript": "Engineering teams have mounted 850 nanometer near-infrared cameras to state vehicles.",
+      "frame": "intermediate/main_video_frames/frame_0256.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Thermal/infrared python detection on patrol vehicle"
+    },
+    {
+      "second": 256,
+      "timestamp": "00:04:16",
+      "transcript": "Engineering teams have mounted 850 nanometer near-infrared cameras to state vehicles.",
+      "frame": "intermediate/main_video_frames/frame_0257.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Thermal/infrared python detection on patrol vehicle"
+    },
+    {
+      "second": 257,
+      "timestamp": "00:04:17",
+      "transcript": "Engineering teams have mounted 850 nanometer near-infrared cameras to state vehicles.",
+      "frame": "intermediate/main_video_frames/frame_0258.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Thermal/infrared python detection on patrol vehicle"
+    },
+    {
+      "second": 258,
+      "timestamp": "00:04:18",
+      "transcript": "Engineering teams have mounted 850 nanometer near-infrared cameras to state vehicles.",
+      "frame": "intermediate/main_video_frames/frame_0259.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Thermal/infrared python detection on patrol vehicle"
+    },
+    {
+      "second": 259,
+      "timestamp": "00:04:19",
+      "transcript": "Engineering teams have mounted 850 nanometer near-infrared cameras to state vehicles.",
+      "frame": "intermediate/main_video_frames/frame_0260.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Thermal/infrared python detection on patrol vehicle"
+    },
+    {
+      "second": 260,
+      "timestamp": "00:04:20",
+      "transcript": "This allows detection teams to scan the environment for python signatures",
+      "frame": "intermediate/main_video_frames/frame_0261.jpg",
+      "topic": "python_challenge",
+      "visual_summary": "Florida Python Challenge and removal statistics"
+    },
+    {
+      "second": 261,
+      "timestamp": "00:04:21",
+      "transcript": "This allows detection teams to scan the environment for python signatures",
+      "frame": "intermediate/main_video_frames/frame_0262.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Scout snake radio transmitter program"
+    },
+    {
+      "second": 262,
+      "timestamp": "00:04:22",
+      "transcript": "This allows detection teams to scan the environment for python signatures",
+      "frame": "intermediate/main_video_frames/frame_0263.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Scout snake radio transmitter program"
+    },
+    {
+      "second": 263,
+      "timestamp": "00:04:23",
+      "transcript": "that are invisible to the human eye.",
+      "frame": "intermediate/main_video_frames/frame_0264.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Camouflaged Burmese python hidden in leaf litter"
+    },
+    {
+      "second": 264,
+      "timestamp": "00:04:24",
+      "transcript": "that are invisible to the human eye.",
+      "frame": "intermediate/main_video_frames/frame_0265.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Camouflaged Burmese python hidden in leaf litter"
+    },
+    {
+      "second": 265,
+      "timestamp": "00:04:25",
+      "transcript": "Biologists are even analyzing the water itself.",
+      "frame": "intermediate/main_video_frames/frame_0266.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Scout snake radio transmitter program"
+    },
+    {
+      "second": 266,
+      "timestamp": "00:04:26",
+      "transcript": "Biologists are even analyzing the water itself.",
+      "frame": "intermediate/main_video_frames/frame_0267.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Scout snake radio transmitter program"
+    },
+    {
+      "second": 267,
+      "timestamp": "00:04:27",
+      "transcript": "Biologists are even analyzing the water itself.",
+      "frame": "intermediate/main_video_frames/frame_0268.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Scout snake radio transmitter program"
+    },
+    {
+      "second": 268,
+      "timestamp": "00:04:28",
+      "transcript": "By testing for environmental DNA, or EDNA,",
+      "frame": "intermediate/main_video_frames/frame_0269.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Environmental DNA / water sampling laboratory graphic"
+    },
+    {
+      "second": 269,
+      "timestamp": "00:04:29",
+      "transcript": "By testing for environmental DNA, or EDNA,",
+      "frame": "intermediate/main_video_frames/frame_0270.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Environmental DNA / water sampling laboratory graphic"
+    },
+    {
+      "second": 270,
+      "timestamp": "00:04:30",
+      "transcript": "By testing for environmental DNA, or EDNA,",
+      "frame": "intermediate/main_video_frames/frame_0271.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Environmental DNA / water sampling laboratory graphic"
+    },
+    {
+      "second": 271,
+      "timestamp": "00:04:31",
+      "transcript": "scientists can confirm a python's recent presence in a specific area",
+      "frame": "intermediate/main_video_frames/frame_0272.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Scout snake radio transmitter program"
+    },
+    {
+      "second": 272,
+      "timestamp": "00:04:32",
+      "transcript": "scientists can confirm a python's recent presence in a specific area",
+      "frame": "intermediate/main_video_frames/frame_0273.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Scout snake radio transmitter program"
+    },
+    {
+      "second": 273,
+      "timestamp": "00:04:33",
+      "transcript": "scientists can confirm a python's recent presence in a specific area",
+      "frame": "intermediate/main_video_frames/frame_0274.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Scout snake radio transmitter program"
+    },
+    {
+      "second": 274,
+      "timestamp": "00:04:34",
+      "transcript": "scientists can confirm a python's recent presence in a specific area",
+      "frame": "intermediate/main_video_frames/frame_0275.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Scout snake radio transmitter program"
+    },
+    {
+      "second": 275,
+      "timestamp": "00:04:35",
+      "transcript": "weeks after the snake has moved out.",
+      "frame": "intermediate/main_video_frames/frame_0276.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Scout snake radio transmitter program"
+    },
+    {
+      "second": 276,
+      "timestamp": "00:04:36",
+      "transcript": "weeks after the snake has moved out.",
+      "frame": "intermediate/main_video_frames/frame_0277.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Scout snake radio transmitter program"
+    },
+    {
+      "second": 277,
+      "timestamp": "00:04:37",
+      "transcript": "These technologies generate critical data,",
+      "frame": "intermediate/main_video_frames/frame_0278.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Scout snake radio transmitter program"
+    },
+    {
+      "second": 278,
+      "timestamp": "00:04:38",
+      "transcript": "These technologies generate critical data,",
+      "frame": "intermediate/main_video_frames/frame_0279.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Scout snake radio transmitter program"
+    },
+    {
+      "second": 279,
+      "timestamp": "00:04:39",
+      "transcript": "These technologies generate critical data,",
+      "frame": "intermediate/main_video_frames/frame_0280.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Scout snake radio transmitter program"
+    },
+    {
+      "second": 280,
+      "timestamp": "00:04:40",
+      "transcript": "but they highlight a difficult reality.",
+      "frame": "intermediate/main_video_frames/frame_0281.jpg",
+      "topic": "scout_snake",
+      "visual_summary": "Scout snake radio transmitter program"
+    },
+    {
+      "second": 281,
+      "timestamp": "00:04:41",
+      "transcript": "but they highlight a difficult reality.",
+      "frame": "intermediate/main_video_frames/frame_0282.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 282,
+      "timestamp": "00:04:42",
+      "transcript": "Florida is currently forced to deploy millions of dollars in advanced tech",
+      "frame": "intermediate/main_video_frames/frame_0283.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 283,
+      "timestamp": "00:04:43",
+      "transcript": "Florida is currently forced to deploy millions of dollars in advanced tech",
+      "frame": "intermediate/main_video_frames/frame_0284.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 284,
+      "timestamp": "00:04:44",
+      "transcript": "Florida is currently forced to deploy millions of dollars in advanced tech",
+      "frame": "intermediate/main_video_frames/frame_0285.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 285,
+      "timestamp": "00:04:45",
+      "transcript": "Florida is currently forced to deploy millions of dollars in advanced tech",
+      "frame": "intermediate/main_video_frames/frame_0286.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 286,
+      "timestamp": "00:04:46",
+      "transcript": "Florida is currently forced to deploy millions of dollars in advanced tech",
+      "frame": "intermediate/main_video_frames/frame_0287.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 287,
+      "timestamp": "00:04:47",
+      "transcript": "just to locate an enemy it hasn't yet found a way to eradicate.",
+      "frame": "intermediate/main_video_frames/frame_0288.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 288,
+      "timestamp": "00:04:48",
+      "transcript": "just to locate an enemy it hasn't yet found a way to eradicate.",
+      "frame": "intermediate/main_video_frames/frame_0289.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 289,
+      "timestamp": "00:04:49",
+      "transcript": "just to locate an enemy it hasn't yet found a way to eradicate.",
+      "frame": "intermediate/main_video_frames/frame_0290.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 290,
+      "timestamp": "00:04:50",
+      "transcript": "just to locate an enemy it hasn't yet found a way to eradicate.",
+      "frame": "intermediate/main_video_frames/frame_0291.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 291,
+      "timestamp": "00:04:51",
+      "transcript": "Recent genetic testing has uncovered a new complication.",
+      "frame": "intermediate/main_video_frames/frame_0292.jpg",
+      "topic": "technology",
+      "visual_summary": "DNA helix and hybrid python genetics visualization"
+    },
+    {
+      "second": 292,
+      "timestamp": "00:04:52",
+      "transcript": "Recent genetic testing has uncovered a new complication.",
+      "frame": "intermediate/main_video_frames/frame_0293.jpg",
+      "topic": "technology",
+      "visual_summary": "DNA helix and hybrid python genetics visualization"
+    },
+    {
+      "second": 293,
+      "timestamp": "00:04:53",
+      "transcript": "Recent genetic testing has uncovered a new complication.",
+      "frame": "intermediate/main_video_frames/frame_0294.jpg",
+      "topic": "technology",
+      "visual_summary": "DNA helix and hybrid python genetics visualization"
+    },
+    {
+      "second": 294,
+      "timestamp": "00:04:54",
+      "transcript": "Recent genetic testing has uncovered a new complication.",
+      "frame": "intermediate/main_video_frames/frame_0295.jpg",
+      "topic": "technology",
+      "visual_summary": "DNA helix and hybrid python genetics visualization"
+    },
+    {
+      "second": 295,
+      "timestamp": "00:04:55",
+      "transcript": "DNA analysis shows that the Burmese pythons in the Everglades",
+      "frame": "intermediate/main_video_frames/frame_0296.jpg",
+      "topic": "technology",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 296,
+      "timestamp": "00:04:56",
+      "transcript": "DNA analysis shows that the Burmese pythons in the Everglades",
+      "frame": "intermediate/main_video_frames/frame_0297.jpg",
+      "topic": "technology",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 297,
+      "timestamp": "00:04:57",
+      "transcript": "DNA analysis shows that the Burmese pythons in the Everglades",
+      "frame": "intermediate/main_video_frames/frame_0298.jpg",
+      "topic": "technology",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 298,
+      "timestamp": "00:04:58",
+      "transcript": "DNA analysis shows that the Burmese pythons in the Everglades",
+      "frame": "intermediate/main_video_frames/frame_0299.jpg",
+      "topic": "technology",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 299,
+      "timestamp": "00:04:59",
+      "transcript": "are now actively hybridizing with the Indian rock python.",
+      "frame": "intermediate/main_video_frames/frame_0300.jpg",
+      "topic": "technology",
+      "visual_summary": "DNA helix and hybrid python genetics visualization"
+    },
+    {
+      "second": 300,
+      "timestamp": "00:05:00",
+      "transcript": "are now actively hybridizing with the Indian rock python.",
+      "frame": "intermediate/main_video_frames/frame_0301.jpg",
+      "topic": "technology",
+      "visual_summary": "DNA helix and hybrid python genetics visualization"
+    },
+    {
+      "second": 301,
+      "timestamp": "00:05:01",
+      "transcript": "are now actively hybridizing with the Indian rock python.",
+      "frame": "intermediate/main_video_frames/frame_0302.jpg",
+      "topic": "technology",
+      "visual_summary": "DNA helix and hybrid python genetics visualization"
+    },
+    {
+      "second": 302,
+      "timestamp": "00:05:02",
+      "transcript": "are now actively hybridizing with the Indian rock python.",
+      "frame": "intermediate/main_video_frames/frame_0303.jpg",
+      "topic": "technology",
+      "visual_summary": "DNA helix and hybrid python genetics visualization"
+    },
+    {
+      "second": 303,
+      "timestamp": "00:05:03",
+      "transcript": "The Indian rock python is a smaller, faster species.",
+      "frame": "intermediate/main_video_frames/frame_0304.jpg",
+      "topic": "technology",
+      "visual_summary": "DNA helix and hybrid python genetics visualization"
+    },
+    {
+      "second": 304,
+      "timestamp": "00:05:04",
+      "transcript": "The Indian rock python is a smaller, faster species.",
+      "frame": "intermediate/main_video_frames/frame_0305.jpg",
+      "topic": "technology",
+      "visual_summary": "DNA helix and hybrid python genetics visualization"
+    },
+    {
+      "second": 305,
+      "timestamp": "00:05:05",
+      "transcript": "The Indian rock python is a smaller, faster species.",
+      "frame": "intermediate/main_video_frames/frame_0306.jpg",
+      "topic": "technology",
+      "visual_summary": "DNA helix and hybrid python genetics visualization"
+    },
+    {
+      "second": 306,
+      "timestamp": "00:05:06",
+      "transcript": "This hybridization introduces increased genetic vigor,",
+      "frame": "intermediate/main_video_frames/frame_0307.jpg",
+      "topic": "technology",
+      "visual_summary": "DNA helix and hybrid python genetics visualization"
+    },
+    {
+      "second": 307,
+      "timestamp": "00:05:07",
+      "transcript": "This hybridization introduces increased genetic vigor,",
+      "frame": "intermediate/main_video_frames/frame_0308.jpg",
+      "topic": "technology",
+      "visual_summary": "DNA helix and hybrid python genetics visualization"
+    },
+    {
+      "second": 308,
+      "timestamp": "00:05:08",
+      "transcript": "This hybridization introduces increased genetic vigor,",
+      "frame": "intermediate/main_video_frames/frame_0309.jpg",
+      "topic": "technology",
+      "visual_summary": "DNA helix and hybrid python genetics visualization"
+    },
+    {
+      "second": 309,
+      "timestamp": "00:05:09",
+      "transcript": "creating a predator that is potentially more adaptable than its ancestors.",
+      "frame": "intermediate/main_video_frames/frame_0310.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 310,
+      "timestamp": "00:05:10",
+      "transcript": "creating a predator that is potentially more adaptable than its ancestors.",
+      "frame": "intermediate/main_video_frames/frame_0311.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 311,
+      "timestamp": "00:05:11",
+      "transcript": "creating a predator that is potentially more adaptable than its ancestors.",
+      "frame": "intermediate/main_video_frames/frame_0312.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 312,
+      "timestamp": "00:05:12",
+      "transcript": "creating a predator that is potentially more adaptable than its ancestors.",
+      "frame": "intermediate/main_video_frames/frame_0313.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 313,
+      "timestamp": "00:05:13",
+      "transcript": "creating a predator that is potentially more adaptable than its ancestors.",
+      "frame": "intermediate/main_video_frames/frame_0314.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 314,
+      "timestamp": "00:05:14",
+      "transcript": "The containment lines are already shifting.",
+      "frame": "intermediate/main_video_frames/frame_0315.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 315,
+      "timestamp": "00:05:15",
+      "transcript": "The containment lines are already shifting.",
+      "frame": "intermediate/main_video_frames/frame_0316.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 316,
+      "timestamp": "00:05:16",
+      "transcript": "2025 range data shows the pythons moving beyond the borders of South Florida",
+      "frame": "intermediate/main_video_frames/frame_0317.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 317,
+      "timestamp": "00:05:17",
+      "transcript": "2025 range data shows the pythons moving beyond the borders of South Florida",
+      "frame": "intermediate/main_video_frames/frame_0318.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 318,
+      "timestamp": "00:05:18",
+      "transcript": "2025 range data shows the pythons moving beyond the borders of South Florida",
+      "frame": "intermediate/main_video_frames/frame_0319.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 319,
+      "timestamp": "00:05:19",
+      "transcript": "2025 range data shows the pythons moving beyond the borders of South Florida",
+      "frame": "intermediate/main_video_frames/frame_0320.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 320,
+      "timestamp": "00:05:20",
+      "transcript": "2025 range data shows the pythons moving beyond the borders of South Florida",
+      "frame": "intermediate/main_video_frames/frame_0321.jpg",
+      "topic": "technology",
+      "visual_summary": "Thermal cameras, canine units, and eDNA testing"
+    },
+    {
+      "second": 321,
+      "timestamp": "00:05:21",
+      "transcript": "and pushing steadily into new counties to the north.",
+      "frame": "intermediate/main_video_frames/frame_0322.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Hybrid genetics and northward range expansion"
+    },
+    {
+      "second": 322,
+      "timestamp": "00:05:22",
+      "transcript": "and pushing steadily into new counties to the north.",
+      "frame": "intermediate/main_video_frames/frame_0323.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Hybrid genetics and northward range expansion"
+    },
+    {
+      "second": 323,
+      "timestamp": "00:05:23",
+      "transcript": "and pushing steadily into new counties to the north.",
+      "frame": "intermediate/main_video_frames/frame_0324.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Hybrid genetics and northward range expansion"
+    },
+    {
+      "second": 324,
+      "timestamp": "00:05:24",
+      "transcript": "With continued genetic adaptation and a warming climate,",
+      "frame": "intermediate/main_video_frames/frame_0325.jpg",
+      "topic": "hybrid",
+      "visual_summary": "DNA helix and hybrid python genetics visualization"
+    },
+    {
+      "second": 325,
+      "timestamp": "00:05:25",
+      "transcript": "With continued genetic adaptation and a warming climate,",
+      "frame": "intermediate/main_video_frames/frame_0326.jpg",
+      "topic": "hybrid",
+      "visual_summary": "DNA helix and hybrid python genetics visualization"
+    },
+    {
+      "second": 326,
+      "timestamp": "00:05:26",
+      "transcript": "With continued genetic adaptation and a warming climate,",
+      "frame": "intermediate/main_video_frames/frame_0327.jpg",
+      "topic": "hybrid",
+      "visual_summary": "DNA helix and hybrid python genetics visualization"
+    },
+    {
+      "second": 327,
+      "timestamp": "00:05:27",
+      "transcript": "researchers expect these cold-blooded invaders to eventually",
+      "frame": "intermediate/main_video_frames/frame_0328.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Hybrid genetics and northward range expansion"
+    },
+    {
+      "second": 328,
+      "timestamp": "00:05:28",
+      "transcript": "researchers expect these cold-blooded invaders to eventually",
+      "frame": "intermediate/main_video_frames/frame_0329.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Hybrid genetics and northward range expansion"
+    },
+    {
+      "second": 329,
+      "timestamp": "00:05:29",
+      "transcript": "researchers expect these cold-blooded invaders to eventually",
+      "frame": "intermediate/main_video_frames/frame_0330.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Hybrid genetics and northward range expansion"
+    },
+    {
+      "second": 330,
+      "timestamp": "00:05:30",
+      "transcript": "survive in more temperate regions across the American Southeast.",
+      "frame": "intermediate/main_video_frames/frame_0331.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Hybrid genetics and northward range expansion"
+    },
+    {
+      "second": 331,
+      "timestamp": "00:05:31",
+      "transcript": "survive in more temperate regions across the American Southeast.",
+      "frame": "intermediate/main_video_frames/frame_0332.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Hybrid genetics and northward range expansion"
+    },
+    {
+      "second": 332,
+      "timestamp": "00:05:32",
+      "transcript": "survive in more temperate regions across the American Southeast.",
+      "frame": "intermediate/main_video_frames/frame_0333.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Hybrid genetics and northward range expansion"
+    },
+    {
+      "second": 333,
+      "timestamp": "00:05:33",
+      "transcript": "Total eradication in Florida is no longer considered a realistic scientific goal.",
+      "frame": "intermediate/main_video_frames/frame_0334.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Swamp ecosystem finale with python among native wildlife"
+    },
+    {
+      "second": 334,
+      "timestamp": "00:05:34",
+      "transcript": "Total eradication in Florida is no longer considered a realistic scientific goal.",
+      "frame": "intermediate/main_video_frames/frame_0335.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Swamp ecosystem finale with python among native wildlife"
+    },
+    {
+      "second": 335,
+      "timestamp": "00:05:35",
+      "transcript": "Total eradication in Florida is no longer considered a realistic scientific goal.",
+      "frame": "intermediate/main_video_frames/frame_0336.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Swamp ecosystem finale with python among native wildlife"
+    },
+    {
+      "second": 336,
+      "timestamp": "00:05:36",
+      "transcript": "Total eradication in Florida is no longer considered a realistic scientific goal.",
+      "frame": "intermediate/main_video_frames/frame_0337.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Swamp ecosystem finale with python among native wildlife"
+    },
+    {
+      "second": 337,
+      "timestamp": "00:05:37",
+      "transcript": "Total eradication in Florida is no longer considered a realistic scientific goal.",
+      "frame": "intermediate/main_video_frames/frame_0338.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Swamp ecosystem finale with python among native wildlife"
+    },
+    {
+      "second": 338,
+      "timestamp": "00:05:38",
+      "transcript": "Total eradication in Florida is no longer considered a realistic scientific goal.",
+      "frame": "intermediate/main_video_frames/frame_0339.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Swamp ecosystem finale with python among native wildlife"
+    },
+    {
+      "second": 339,
+      "timestamp": "00:05:39",
+      "transcript": "The state has shifted its focus to permanent damage control",
+      "frame": "intermediate/main_video_frames/frame_0340.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Swamp ecosystem finale with python among native wildlife"
+    },
+    {
+      "second": 340,
+      "timestamp": "00:05:40",
+      "transcript": "The state has shifted its focus to permanent damage control",
+      "frame": "intermediate/main_video_frames/frame_0341.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Swamp ecosystem finale with python among native wildlife"
+    },
+    {
+      "second": 341,
+      "timestamp": "00:05:41",
+      "transcript": "The state has shifted its focus to permanent damage control",
+      "frame": "intermediate/main_video_frames/frame_0342.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Swamp ecosystem finale with python among native wildlife"
+    },
+    {
+      "second": 342,
+      "timestamp": "00:05:42",
+      "transcript": "The state has shifted its focus to permanent damage control",
+      "frame": "intermediate/main_video_frames/frame_0343.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Swamp ecosystem finale with python among native wildlife"
+    },
+    {
+      "second": 343,
+      "timestamp": "00:05:43",
+      "transcript": "and the protection of specific habitats.",
+      "frame": "intermediate/main_video_frames/frame_0344.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Hybrid genetics and northward range expansion"
+    },
+    {
+      "second": 344,
+      "timestamp": "00:05:44",
+      "transcript": "and the protection of specific habitats.",
+      "frame": "intermediate/main_video_frames/frame_0345.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Hybrid genetics and northward range expansion"
+    },
+    {
+      "second": 345,
+      "timestamp": "00:05:45",
+      "transcript": "and the protection of specific habitats.",
+      "frame": "intermediate/main_video_frames/frame_0346.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Hybrid genetics and northward range expansion"
+    },
+    {
+      "second": 346,
+      "timestamp": "00:05:46",
+      "transcript": "The Burmese python proves how a single, unchecked invasive species",
+      "frame": "intermediate/main_video_frames/frame_0347.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Hybrid genetics and northward range expansion"
+    },
+    {
+      "second": 347,
+      "timestamp": "00:05:47",
+      "transcript": "The Burmese python proves how a single, unchecked invasive species",
+      "frame": "intermediate/main_video_frames/frame_0348.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Hybrid genetics and northward range expansion"
+    },
+    {
+      "second": 348,
+      "timestamp": "00:05:48",
+      "transcript": "The Burmese python proves how a single, unchecked invasive species",
+      "frame": "intermediate/main_video_frames/frame_0349.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Hybrid genetics and northward range expansion"
+    },
+    {
+      "second": 349,
+      "timestamp": "00:05:49",
+      "transcript": "The Burmese python proves how a single, unchecked invasive species",
+      "frame": "intermediate/main_video_frames/frame_0350.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Hybrid genetics and northward range expansion"
+    },
+    {
+      "second": 350,
+      "timestamp": "00:05:50",
+      "transcript": "can permanently and irreversibly alter a fragile ecosystem.",
+      "frame": "intermediate/main_video_frames/frame_0351.jpg",
+      "topic": "hybrid",
+      "visual_summary": "Hybrid genetics and northward range expansion"
+    },
+    {
+      "second": 351,
+      "timestamp": "00:05:51",
+      "transcript": "can permanently and irreversibly alter a fragile ecosystem.",
+      "frame": "intermediate/main_video_frames/frame_0352.jpg",
+      "topic": "conclusion",
+      "visual_summary": "Eradication impossible; Everglades under siege"
+    },
+    {
+      "second": 352,
+      "timestamp": "00:05:52",
+      "transcript": "can permanently and irreversibly alter a fragile ecosystem.",
+      "frame": "intermediate/main_video_frames/frame_0353.jpg",
+      "topic": "conclusion",
+      "visual_summary": "Eradication impossible; Everglades under siege"
+    },
+    {
+      "second": 353,
+      "timestamp": "00:05:53",
+      "transcript": "can permanently and irreversibly alter a fragile ecosystem.",
+      "frame": "intermediate/main_video_frames/frame_0354.jpg",
+      "topic": "conclusion",
+      "visual_summary": "Eradication impossible; Everglades under siege"
+    },
+    {
+      "second": 354,
+      "timestamp": "00:05:54",
+      "transcript": "Florida is attempting to hold the line for its native species,",
+      "frame": "intermediate/main_video_frames/frame_0355.jpg",
+      "topic": "conclusion",
+      "visual_summary": "Eradication impossible; Everglades under siege"
+    },
+    {
+      "second": 355,
+      "timestamp": "00:05:55",
+      "transcript": "Florida is attempting to hold the line for its native species,",
+      "frame": "intermediate/main_video_frames/frame_0356.jpg",
+      "topic": "conclusion",
+      "visual_summary": "Eradication impossible; Everglades under siege"
+    },
+    {
+      "second": 356,
+      "timestamp": "00:05:56",
+      "transcript": "Florida is attempting to hold the line for its native species,",
+      "frame": "intermediate/main_video_frames/frame_0357.jpg",
+      "topic": "conclusion",
+      "visual_summary": "Eradication impossible; Everglades under siege"
+    },
+    {
+      "second": 357,
+      "timestamp": "00:05:57",
+      "transcript": "Florida is attempting to hold the line for its native species,",
+      "frame": "intermediate/main_video_frames/frame_0358.jpg",
+      "topic": "conclusion",
+      "visual_summary": "Eradication impossible; Everglades under siege"
+    },
+    {
+      "second": 358,
+      "timestamp": "00:05:58",
+      "transcript": "but it remains to be seen if the Everglades can endure,",
+      "frame": "intermediate/main_video_frames/frame_0359.jpg",
+      "topic": "conclusion",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 359,
+      "timestamp": "00:05:59",
+      "transcript": "but it remains to be seen if the Everglades can endure,",
+      "frame": "intermediate/main_video_frames/frame_0360.jpg",
+      "topic": "conclusion",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 360,
+      "timestamp": "00:06:00",
+      "transcript": "but it remains to be seen if the Everglades can endure,",
+      "frame": "intermediate/main_video_frames/frame_0361.jpg",
+      "topic": "conclusion",
+      "visual_summary": "Wide Everglades marshland with sawgrass and sky"
+    },
+    {
+      "second": 361,
+      "timestamp": "00:06:01",
+      "transcript": "or if the landscape has already been surrendered to the python.",
+      "frame": "intermediate/main_video_frames/frame_0362.jpg",
+      "topic": "conclusion",
+      "visual_summary": "Eradication impossible; Everglades under siege"
+    },
+    {
+      "second": 362,
+      "timestamp": "00:06:02",
+      "transcript": "or if the landscape has already been surrendered to the python.",
+      "frame": "intermediate/main_video_frames/frame_0363.jpg",
+      "topic": "conclusion",
+      "visual_summary": "Eradication impossible; Everglades under siege"
+    },
+    {
+      "second": 363,
+      "timestamp": "00:06:03",
+      "transcript": "or if the landscape has already been surrendered to the python.",
+      "frame": "intermediate/main_video_frames/frame_0364.jpg",
+      "topic": "conclusion",
+      "visual_summary": "Eradication impossible; Everglades under siege"
+    },
+    {
+      "second": 364,
+      "timestamp": "00:06:04",
+      "transcript": "or if the landscape has already been surrendered to the python.",
+      "frame": "intermediate/main_video_frames/frame_0365.jpg",
+      "topic": "conclusion",
+      "visual_summary": "Eradication impossible; Everglades under siege"
+    },
+    {
+      "second": 365,
+      "timestamp": "00:06:05",
+      "transcript": "or if the landscape has already been surrendered to the python.",
+      "frame": "intermediate/main_video_frames/frame_0366.jpg",
+      "topic": "conclusion",
+      "visual_summary": "Eradication impossible; Everglades under siege"
+    }
+  ]
+}

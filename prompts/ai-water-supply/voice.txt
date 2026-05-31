@@ -1,0 +1,6 @@
+ElevenLabs voice: TBD — match Curious Mind documentary tone (authoritative, steady)
+Target pace: 145–155 wpm
+Settings: stability 50, similarity 50, style 75, speed 1.0
+
+Source script: projects/ai-water-supply/data/script_AI_water_supply.json
+Narration text: prompts/ai-water-supply/narration.txt

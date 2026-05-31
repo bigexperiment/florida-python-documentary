@@ -1,0 +1,115 @@
+Pick up a water bottle. Hold it. Feel the weight of it.
+
+Now open your phone, and ask ChatGPT something. Anything. The weather. A recipe. A question you're too embarrassed to Google.
+
+You just used that bottle of water. Not at your house. Not in your kitchen. But somewhere — in a building you've never seen, in a city that might not even be yours — that water was just consumed on your behalf.
+
+And nobody told you.
+
+When you use AI — ChatGPT, Google Gemini, Microsoft Copilot — it feels like magic. You type. Words appear. It's free. It's instant.
+
+But there's a transaction happening that you can't see on your screen.
+
+Somewhere in America right now, a building the size of six football fields is running at full capacity. Inside, tens of thousands of computer chips — called GPUs — are working in parallel to process your request. These chips run hot. Very hot. Left unchecked, they would destroy themselves within minutes.
+
+So the building has a system to cool them. And that system needs water. A lot of it.
+
+It's called evaporative cooling. The same principle as sweat. Your body sweats to cool itself down — the water evaporates and takes the heat with it. Data centers do the exact same thing, just at a scale that's almost impossible to visualize.
+
+A single, mid-sized AI data center uses around two million liters of water every single day. That's enough drinking water for six and a half thousand people. Gone. Evaporated. Into the sky. Every day.
+
+Now let's talk about the companies behind this.
+
+In 2024, Google reported consuming 8.1 billion gallons of water across its global data center fleet. That's not a typo. 8.1 billion gallons. In one year.
+
+One of Google's single sites — in Council Bluffs, Iowa — used over a billion gallons alone. On its peak days, it hit 2.7 million gallons in a single day.
+
+Microsoft isn't much different. Across its five data center facilities in West Des Moines, Iowa, the company used 68.5 million gallons in 2024 — making it the single largest water user in the entire region.
+
+And when they trained GPT-4 — the model that powers much of ChatGPT — the process consumed 13.4 million gallons of water in a single month. One model. One month. In one city.
+
+As for Amazon — they don't publicly disclose their global water use at all. Let that sit for a moment. One of the largest infrastructure builders on the planet — a company whose data centers power Netflix, Spotify, the US government — simply chooses not to tell you how much water they're using.
+
+And for a long time, neither did anyone else.
+
+The Dalles, Oregon. Population 16,000. It sits in a river gorge 85 miles east of Portland, right on the dry side of the Cascade Mountains. It has beautiful orchards. A proud farming history. And a serious, worsening drought.
+
+In 2006, Google quietly built its very first company-owned data center here. It was so secretive that for years you couldn't even find the building on Google Maps.
+
+Over the next 15 years, Google expanded. And expanded. And expanded. The company became the largest single taxpayer in the entire county — by a factor of seven. For a struggling rural town, that money was transformative.
+
+But something else was happening too.
+
+Dawn Rasmussen lives on the outskirts of The Dalles. Year after year, she had been watching the water level in her personal well drop. She wanted to know why. She wanted to know how much water Google was actually using.
+
+So did the journalists at The Oregonian — Oregon's largest newspaper. In 2021, they filed a public records request to find out.
+
+What happened next was extraordinary.
+
+The city of The Dalles — acting on behalf of Google — sued their own local newspaper. To keep the water use numbers secret. They argued it was a trade secret. That knowing how Google cools its servers would somehow help Google's competitors. The legal fight lasted 13 months. Google reportedly covered the city's legal costs.
+
+Eventually, they lost.
+
+The numbers came out. Google's data centers in The Dalles had used 274.5 million gallons of water in a single year — roughly a third of the city's entire water supply. And nobody had known.
+
+Dawn Rasmussen heard the number and said: 'I'm flabbergasted. And I'm scared for the future.'
+
+She wasn't alone.
+
+If you were going to build something that needs millions of gallons of water every day — you probably wouldn't build it in the middle of the desert.
+
+And yet.
+
+Right now, nearly 200 data centers and chip factories are being built or have been built in Arizona. In Mesa — a suburb of Phoenix facing extreme drought — Meta just opened a billion-dollar data center. Google is building two more nearby. In Buckeye — a fast-growing suburb to the west — a company called Tract took over a stalled housing development and turned it into a 2,000-acre, $20 billion data center complex.
+
+Google's existing Mesa data center has a permit to use 5.5 million cubic meters of water per year. That is the same amount used by 23,000 ordinary Arizona residents. One data center. 23,000 people's worth of water. In a state that's already running out.
+
+Arizona's water problem isn't new. The Colorado River — which supplies much of the Southwest — is at its lowest levels in recorded history. The state has already revoked building permits for new homes in some areas because there simply isn't enough groundwater. Some farmers have been forced to abandon their fields entirely.
+
+And yet, two-thirds of all new AI data centers built since 2022 are located in high water stress zones. Two-thirds. Not because the companies don't know. But because land is cheap, permits are fast, and local governments — desperate for jobs and tax revenue — keep saying yes.
+
+But here's what almost no one is talking about.
+
+The data centers themselves are only part of the water problem. Before a single chip gets installed in a server rack, before it ever processes a single query — it had to be made.
+
+Semiconductor manufacturing is one of the most water-intensive industrial processes that exists. Chip factories need what's called ultrapure water — water so clean it doesn't even conduct electricity — for washing chips during the manufacturing process. A single semiconductor facility uses up to five million gallons of ultrapure water per day.
+
+And right now, TSMC — the Taiwanese company that makes most of the world's advanced AI chips, including the ones inside every iPhone and every Nvidia GPU — is building a multi-billion dollar chip factory in Phoenix, Arizona.
+
+The same Phoenix. The same drought. The same depleted Colorado River.
+
+So when you think about AI's water footprint, you're not just looking at the cooling towers behind the data center. You're looking at the factory that built the machine inside it. And that factory is thirsty too.
+
+Here's where this goes.
+
+In September 2025, Morgan Stanley published a report. It projected that by 2028 — just two years from now — AI data centers could increase global water consumption by eleven times. Not eleven percent. Eleven times. A total of over one trillion liters of water per year.
+
+For context: that is more water than the entire country of Denmark uses in a year. Consumed not by farms. Not by cities. Not by people. By servers. Running AI models. So that you can get a recipe faster.
+
+And the problem isn't just volume — it's location. More than half of the world's major data center hubs already sit in regions facing water scarcity. In 2025, over 190 data center bills were introduced across US state legislatures. Arizona's governor proposed a one-cent-per-gallon water surcharge on tech companies. The Netherlands already banned hyperscale data centers entirely.
+
+These aren't fringe reactions. This is governments starting to panic.
+
+But it doesn't have to go only one way.
+
+In Quincy, Washington — a small farming town in the Columbia Basin — Microsoft built one of its largest data centers. And the community did something different. Instead of letting the company write its own terms, residents and local officials pushed back hard. They negotiated.
+
+The result: Microsoft funded a $35 million water recycling facility. It saves 380 million gallons of water every year. Water that would have evaporated into nothing is now being recaptured, cleaned, and reused by the community.
+
+It's not a perfect solution. It doesn't cancel out what's happening in Phoenix, or The Dalles, or Chile, or Spain. But it proves something important: the outcome is not fixed. These deals are negotiable. The companies will push for as much as you let them take.
+
+And in Quincy, they pushed back.
+
+Now — before you feel like you need to delete ChatGPT — here's the fair counterpoint.
+
+Some researchers argue the numbers get overstated. That most water withdrawn by data centers is returned to local sources, not permanently consumed. That golf courses in Phoenix use thirty times more water than every data center in the county combined. That the electricity grid — not the cooling towers — is the bigger long-term problem.
+
+Both things can be true.
+
+The real question isn't whether AI is worse than golf. The question is: who gets to decide?
+
+Right now, in The Dalles, in Phoenix, in Mesa, in places you've never heard of — a deal is being made. Your query, their water. Your convenience, their drought.
+
+And most people don't even know the deal exists.
+
+If you found this because you were curious — that's exactly why this matters. Share it with someone who should know.

@@ -1,4 +1,0 @@
-ElevenLabs voice: Daniel — Steady Broadcaster
-Settings: stability 50, similarity 50, style 75, speed 1.0, boost 2
-
-Output file: assets/audio/ElevenLabs_2026-05-23T01_28_35_Daniel - Steady Broadcaster_pre_sp100_s50_sb75_se0_b_m2.mp3

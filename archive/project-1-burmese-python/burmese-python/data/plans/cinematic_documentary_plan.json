@@ -1,0 +1,50 @@
+{
+  "output": "final_documentary.mp4",
+  "audio_duration": 334.367313,
+  "segments": [
+    {
+      "clip": "into.mp4",
+      "duration": 22.93
+    },
+    {
+      "clip": "Python_moving_in_swamp_water_202605222056.mp4",
+      "duration": 39.74
+    },
+    {
+      "clip": "Hurricane_destroys_reptile_facility_202605222058.mp4",
+      "duration": 34.14
+    },
+    {
+      "clip": "Pythons_in_Everglades_landscape_202605222112.mp4",
+      "duration": 35.16
+    },
+    {
+      "clip": "Python_swallowing_alligator_dawn_202605222100.mp4",
+      "duration": 15.29
+    },
+    {
+      "clip": "Officers_capture_python_in_swamp_202605222033.mp4",
+      "duration": 25.99
+    },
+    {
+      "clip": "Officers_capture_large_python_202605222105.mp4",
+      "duration": 29.55
+    },
+    {
+      "clip": "Python_Challenge_hunters_capture\u2026_202605222106.mp4",
+      "duration": 34.65
+    },
+    {
+      "clip": "Python_hunting_with_thermal_cameras_202605222109.mp4",
+      "duration": 31.08
+    },
+    {
+      "clip": "Hybrid_python_spreads_across_Flo\u2026_202605222110.mp4",
+      "duration": 33.12
+    },
+    {
+      "clip": "Pythons_in_Everglades_landscape_202605222112.mp4",
+      "duration": 39.23
+    }
+  ]
+}

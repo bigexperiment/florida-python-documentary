@@ -6,10 +6,11 @@ import os
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-PROJECT_NAME = os.environ.get("DOCUMENTARY_PROJECT", "burmese-python")
+PROJECT_NAME = os.environ.get("DOCUMENTARY_PROJECT", "ai-water-supply")
 
 ROOT = REPO_ROOT / "projects" / PROJECT_NAME
 PROMPTS = REPO_ROOT / "prompts" / PROJECT_NAME
+ARCHIVE = REPO_ROOT / "archive"
 
 ASSETS = ROOT / "assets"
 BROLL = ASSETS / "broll"
@@ -24,6 +25,7 @@ TRANSCRIPTS = DATA / "transcripts"
 SUBTITLES = DATA / "subtitles"
 WHISPER = DATA / "whisper"
 CATALOG_DIR = DATA / "catalog"
+SCRIPT_JSON = DATA / "script_AI_water_supply.json"
 
 INTERMEDIATE = ROOT / "intermediate"
 FRAMES_DIR = INTERMEDIATE / "main_video_frames"
@@ -33,12 +35,14 @@ REPORTS = ROOT / "reports"
 SYNC_AUDIT = REPORTS / "sync_audit"
 SYNC_REVIEW = REPORTS / "sync_review"
 
-MAIN_VIDEO = MAIN / "The_Asymmetric_War__Florida_vs.mp4"
-NARRATION_MP3 = AUDIO / (
-    "ElevenLabs_2026-05-23T01_28_35_Daniel - Steady Broadcaster_pre_sp100_s50_sb75_se0_b_m2.mp3"
-)
 NARRATION_PROMPT = PROMPTS / "narration.txt"
+VOICE_PROMPT = PROMPTS / "voice.txt"
 TRANSCRIPT = NARRATION_PROMPT
+
+NARRATION_MP3 = AUDIO / "narration.mp3"
 NARRATION_WHISPER = WHISPER / "narration_whisper.json"
 MAIN_VIDEO_WHISPER = WHISPER / "main_video_whisper.json"
 CATALOG_JSON = CATALOG_DIR / "main_video_catalog.json"
+
+# Legacy burmese-python paths (project 1 — archived)
+BURMESE_ARCHIVE = ARCHIVE / "project-1-burmese-python"

@@ -1,7 +1,7 @@
-# Whisper model weights (download locally; too large for GitHub)
+# Shared Whisper model (download locally)
 **/models/
 
-# Extracted frames and audio (regenerate with catalog script)
+# Intermediate extraction artifacts
 **/intermediate/
 
 # Rendered outputs over GitHub's 100MB limit
@@ -10,8 +10,15 @@ projects/*/output/final_documentary_3.mp4
 projects/*/output/final_documentary_4.mp4
 projects/*/output/final_documentary_6.mp4
 
-# Regeneratable audit/review frame JPEGs (JSON reports are tracked)
+# Regeneratable audit/review frame JPEGs
 projects/*/reports/**/*.jpg
+archive/**/reports/**/*.jpg
+
+# Archived project 1 — large local media (keep in archive, don't push)
+archive/**/assets/
+archive/**/output/
+archive/**/intermediate/
+archive/**/models/
 
 # OS / Python
 .DS_Store

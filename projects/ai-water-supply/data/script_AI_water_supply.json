@@ -1,0 +1,785 @@
+{
+    "video": {
+      "id": "ai_water_supply_v2",
+      "topic": "AI data centers and hidden water consumption",
+      "channel_style": "Curious Mind / Wendover Productions — narrated documentary, no talking head",
+      "runtime_target": "10:00 – 10:45",
+      "narration_word_count": 1615,
+      "narration_wpm_target": 150,
+      "status": "script_v2_expanded",
+      "version_notes": "Added Act 5 (semiconductor chip water use / TSMC Phoenix) and Act 7 (Quincy WA community win). Total narration ~1615 words. Solid 10–11 min at 145–155 wpm."
+    },
+  
+    "thumbnail_hooks": [
+      {
+        "id": "thumb_001",
+        "line_1": "Every ChatGPT message costs a bottle of water",
+        "line_2": "here's the math",
+        "strength": "primary"
+      },
+      {
+        "id": "thumb_002",
+        "line_1": "The tech giants are draining your city",
+        "line_2": "nobody's stopping them",
+        "strength": "high_anger"
+      },
+      {
+        "id": "thumb_003",
+        "line_1": "AI uses more water than 23,000 people",
+        "line_2": "in a state already running dry",
+        "strength": "stat_hook"
+      },
+      {
+        "id": "thumb_004",
+        "line_1": "Google sued a newspaper",
+        "line_2": "to hide how much water it drinks",
+        "strength": "narrative_hook"
+      }
+    ],
+  
+    "title_options": [
+      {
+        "id": "title_001",
+        "text": "AI Is Quietly Draining America's Water Supply (And No One Is Talking About It)",
+        "style": "Curious Mind mystery lead"
+      },
+      {
+        "id": "title_002",
+        "text": "The Hidden Cost of ChatGPT: Where Your City's Water Is Really Going",
+        "style": "personal stakes"
+      },
+      {
+        "id": "title_003",
+        "text": "Why Big Tech Built Its Servers in the Middle of America's Worst Drought",
+        "style": "counterintuitive premise"
+      },
+      {
+        "id": "title_004",
+        "text": "The Town That Sued a Newspaper to Protect Google's Secret Water Use",
+        "style": "narrative / story-first"
+      }
+    ],
+  
+    "acts": [
+      {
+        "id": "act_0",
+        "number": 0,
+        "name": "Cold Open",
+        "theme": "hook",
+        "timestamp_start": "00:00",
+        "timestamp_end": "00:45",
+        "duration_seconds": 45,
+        "narration_word_count": 80,
+        "retention_device": "physical metaphor — water bottle in viewer's hand before reveal",
+        "keywords": ["water bottle", "ChatGPT", "invisible cost", "hook"],
+        "narration": "Pick up a water bottle. Hold it. Feel the weight of it.\n\nNow open your phone, and ask ChatGPT something. Anything. The weather. A recipe. A question you're too embarrassed to Google.\n\nYou just used that bottle of water. Not at your house. Not in your kitchen. But somewhere — in a building you've never seen, in a city that might not even be yours — that water was just consumed on your behalf.\n\nAnd nobody told you.",
+        "broll": [
+          {
+            "id": "broll_0_1",
+            "description": "Black screen. Dead silence. Sound of water dripping slowly.",
+            "type": "audio_only",
+            "semantic_tags": ["water", "drip", "silence", "tension"]
+          },
+          {
+            "id": "broll_0_2",
+            "description": "Extreme close-up of a full water bottle. Label facing camera. Hand slowly picks it up.",
+            "type": "closeup",
+            "semantic_tags": ["water bottle", "hand", "closeup", "product"]
+          },
+          {
+            "id": "broll_0_3",
+            "description": "Aerial drone shot of massive grey warehouse data center buildings in flat desert. Steam rising from rooftops.",
+            "type": "aerial",
+            "semantic_tags": ["data center", "desert", "aerial", "Phoenix", "steam", "warehouse"]
+          },
+          {
+            "id": "broll_0_4",
+            "description": "Text overlay fades in: 'This is what the internet actually looks like.'",
+            "type": "text_overlay",
+            "semantic_tags": ["title card", "internet", "reveal"]
+          }
+        ],
+        "stats_cited": [],
+        "companies_referenced": ["OpenAI"],
+        "locations_referenced": []
+      },
+      {
+        "id": "act_1",
+        "number": 1,
+        "name": "The Invisible Transaction",
+        "theme": "explainer — how data center cooling works",
+        "timestamp_start": "00:45",
+        "timestamp_end": "02:30",
+        "duration_seconds": 105,
+        "narration_word_count": 175,
+        "retention_device": "demystifying the mechanism — relatable sweat analogy",
+        "keywords": ["evaporative cooling", "GPUs", "server cooling", "how it works", "sweat analogy"],
+        "narration": "When you use AI — ChatGPT, Google Gemini, Microsoft Copilot — it feels like magic. You type. Words appear. It's free. It's instant.\n\nBut there's a transaction happening that you can't see on your screen.\n\nSomewhere in America right now, a building the size of six football fields is running at full capacity. Inside, tens of thousands of computer chips — called GPUs — are working in parallel to process your request. These chips run hot. Very hot. Left unchecked, they would destroy themselves within minutes.\n\nSo the building has a system to cool them. And that system needs water. A lot of it.\n\nIt's called evaporative cooling. The same principle as sweat. Your body sweats to cool itself down — the water evaporates and takes the heat with it. Data centers do the exact same thing, just at a scale that's almost impossible to visualize.\n\nA single, mid-sized AI data center uses around two million liters of water every single day. That's enough drinking water for six and a half thousand people. Gone. Evaporated. Into the sky. Every day.",
+        "broll": [
+          {
+            "id": "broll_1_1",
+            "description": "Person typing into ChatGPT on laptop. Response streams in. Quick cut.",
+            "type": "closeup",
+            "semantic_tags": ["ChatGPT", "laptop", "typing", "AI", "response"]
+          },
+          {
+            "id": "broll_1_2",
+            "description": "Interior data center — rows of blinking server racks, blue lights, fans humming.",
+            "type": "interior",
+            "semantic_tags": ["data center interior", "server racks", "GPU", "blue light", "blinking"]
+          },
+          {
+            "id": "broll_1_3",
+            "description": "Industrial cooling towers on data center rooftop. White steam billowing into clear sky.",
+            "type": "exterior",
+            "semantic_tags": ["cooling tower", "steam", "rooftop", "industrial", "evaporation"]
+          },
+          {
+            "id": "broll_1_4",
+            "description": "Animation: simple diagram — servers generate heat → water absorbs heat → cooling tower evaporates water → cycle repeats.",
+            "type": "animation",
+            "semantic_tags": ["diagram", "explainer", "cooling cycle", "evaporative cooling", "animation"]
+          },
+          {
+            "id": "broll_1_5",
+            "description": "Counter animation: 2,000,000 liters ticking upward. Then 6,500 people icons appearing.",
+            "type": "animation",
+            "semantic_tags": ["counter", "liters", "data viz", "people comparison", "2 million liters"]
+          }
+        ],
+        "stats_cited": ["stat_001"],
+        "companies_referenced": ["OpenAI", "Google", "Microsoft"],
+        "locations_referenced": []
+      },
+      {
+        "id": "act_2",
+        "number": 2,
+        "name": "The Numbers",
+        "theme": "scale — corporate water consumption figures",
+        "timestamp_start": "02:30",
+        "timestamp_end": "04:15",
+        "duration_seconds": 105,
+        "narration_word_count": 190,
+        "retention_device": "escalating stat reveals — each number bigger than the last",
+        "keywords": ["Google", "Microsoft", "Amazon", "GPT-4 training", "Iowa", "8 billion gallons", "transparency"],
+        "narration": "Now let's talk about the companies behind this.\n\nIn 2024, Google reported consuming 8.1 billion gallons of water across its global data center fleet. That's not a typo. 8.1 billion gallons. In one year.\n\nOne of Google's single sites — in Council Bluffs, Iowa — used over a billion gallons alone. On its peak days, it hit 2.7 million gallons in a single day.\n\nMicrosoft isn't much different. Across its five data center facilities in West Des Moines, Iowa, the company used 68.5 million gallons in 2024 — making it the single largest water user in the entire region.\n\nAnd when they trained GPT-4 — the model that powers much of ChatGPT — the process consumed 13.4 million gallons of water in a single month. One model. One month. In one city.\n\nAs for Amazon — they don't publicly disclose their global water use at all. Let that sit for a moment. One of the largest infrastructure builders on the planet — a company whose data centers power Netflix, Spotify, the US government — simply chooses not to tell you how much water they're using.\n\nAnd for a long time, neither did anyone else.",
+        "broll": [
+          {
+            "id": "broll_2_1",
+            "description": "Google campus exterior. Microsoft campus exterior. Amazon data center exterior. Quick cuts.",
+            "type": "exterior",
+            "semantic_tags": ["Google", "Microsoft", "Amazon", "tech campus", "corporate"]
+          },
+          {
+            "id": "broll_2_2",
+            "description": "Animated stat graphic: 8.1 BILLION GALLONS — Google, 2024. Number fills screen.",
+            "type": "animation",
+            "semantic_tags": ["8.1 billion gallons", "Google", "stat", "data viz", "2024"]
+          },
+          {
+            "id": "broll_2_3",
+            "description": "Map animation: dots appearing across US wherever major data centers are. Map fills rapidly.",
+            "type": "animation",
+            "semantic_tags": ["US map", "data centers", "locations", "expanding", "network"]
+          },
+          {
+            "id": "broll_2_4",
+            "description": "Graphic: Amazon logo with text 'Water use: undisclosed' — simple, stark.",
+            "type": "animation",
+            "semantic_tags": ["Amazon", "transparency", "undisclosed", "secrecy"]
+          }
+        ],
+        "stats_cited": ["stat_002", "stat_003", "stat_004", "stat_005", "stat_006"],
+        "companies_referenced": ["Google", "Microsoft", "Amazon", "OpenAI"],
+        "locations_referenced": ["Council Bluffs Iowa", "West Des Moines Iowa"]
+      },
+      {
+        "id": "act_3",
+        "number": 3,
+        "name": "The Town That Fought Google",
+        "theme": "narrative — The Dalles, Oregon legal story",
+        "timestamp_start": "04:15",
+        "timestamp_end": "06:30",
+        "duration_seconds": 135,
+        "narration_word_count": 305,
+        "retention_device": "David vs Goliath story — city sues its own newspaper on behalf of Google",
+        "keywords": ["The Dalles", "Oregon", "Google", "trade secret", "lawsuit", "Dawn Rasmussen", "well water", "Oregonian", "drought", "public records"],
+        "narration": "The Dalles, Oregon. Population 16,000. It sits in a river gorge 85 miles east of Portland, right on the dry side of the Cascade Mountains. It has beautiful orchards. A proud farming history. And a serious, worsening drought.\n\nIn 2006, Google quietly built its very first company-owned data center here. It was so secretive that for years you couldn't even find the building on Google Maps.\n\nOver the next 15 years, Google expanded. And expanded. And expanded. The company became the largest single taxpayer in the entire county — by a factor of seven. For a struggling rural town, that money was transformative.\n\nBut something else was happening too.\n\nDawn Rasmussen lives on the outskirts of The Dalles. Year after year, she had been watching the water level in her personal well drop. She wanted to know why. She wanted to know how much water Google was actually using.\n\nSo did the journalists at The Oregonian — Oregon's largest newspaper. In 2021, they filed a public records request to find out.\n\nWhat happened next was extraordinary.\n\nThe city of The Dalles — acting on behalf of Google — sued their own local newspaper. To keep the water use numbers secret. They argued it was a trade secret. That knowing how Google cools its servers would somehow help Google's competitors. The legal fight lasted 13 months. Google reportedly covered the city's legal costs.\n\nEventually, they lost.\n\nThe numbers came out. Google's data centers in The Dalles had used 274.5 million gallons of water in a single year — roughly a third of the city's entire water supply. And nobody had known.\n\nDawn Rasmussen heard the number and said: 'I'm flabbergasted. And I'm scared for the future.'\n\nShe wasn't alone.",
+        "broll": [
+          {
+            "id": "broll_3_1",
+            "description": "Aerial shot: The Dalles, Oregon. Columbia River in background. Small town. Then — enormous grey Google data center buildings appearing.",
+            "type": "aerial",
+            "semantic_tags": ["The Dalles", "Oregon", "Columbia River", "Google data center", "small town", "aerial"]
+          },
+          {
+            "id": "broll_3_2",
+            "description": "Dry well. A woman standing near it, looking down. Rural Oregon setting.",
+            "type": "stock",
+            "semantic_tags": ["dry well", "drought", "rural", "Oregon", "woman", "water shortage"]
+          },
+          {
+            "id": "broll_3_3",
+            "description": "Exterior of courthouse / city council building.",
+            "type": "exterior",
+            "semantic_tags": ["courthouse", "city council", "government", "legal"]
+          },
+          {
+            "id": "broll_3_4",
+            "description": "Newspaper front page — The Oregonian. Close-up on headline.",
+            "type": "closeup",
+            "semantic_tags": ["newspaper", "The Oregonian", "headline", "journalism", "public records"]
+          },
+          {
+            "id": "broll_3_5",
+            "description": "Overhead drone — The Dalles orchards. Contrast with Google facility roof.",
+            "type": "aerial",
+            "semantic_tags": ["orchards", "farmland", "The Dalles", "contrast", "agriculture"]
+          }
+        ],
+        "stats_cited": ["stat_007"],
+        "companies_referenced": ["Google"],
+        "locations_referenced": ["The Dalles Oregon"],
+        "people_referenced": ["dawn_rasmussen"]
+      },
+      {
+        "id": "act_4",
+        "number": 4,
+        "name": "The Desert Is Open For Business",
+        "theme": "geography — drought zones being chosen deliberately",
+        "timestamp_start": "06:30",
+        "timestamp_end": "07:50",
+        "duration_seconds": 80,
+        "narration_word_count": 250,
+        "retention_device": "counterintuitive premise — building water-hungry buildings in the driest places on Earth",
+        "keywords": ["Phoenix", "Arizona", "drought", "Colorado River", "Meta", "Google Mesa", "Buckeye", "23000 residents", "farming", "groundwater", "permits"],
+        "narration": "If you were going to build something that needs millions of gallons of water every day — you probably wouldn't build it in the middle of the desert.\n\nAnd yet.\n\nRight now, nearly 200 data centers and chip factories are being built or have been built in Arizona. In Mesa — a suburb of Phoenix facing extreme drought — Meta just opened a billion-dollar data center. Google is building two more nearby. In Buckeye — a fast-growing suburb to the west — a company called Tract took over a stalled housing development and turned it into a 2,000-acre, $20 billion data center complex.\n\nGoogle's existing Mesa data center has a permit to use 5.5 million cubic meters of water per year. That is the same amount used by 23,000 ordinary Arizona residents. One data center. 23,000 people's worth of water. In a state that's already running out.\n\nArizona's water problem isn't new. The Colorado River — which supplies much of the Southwest — is at its lowest levels in recorded history. The state has already revoked building permits for new homes in some areas because there simply isn't enough groundwater. Some farmers have been forced to abandon their fields entirely.\n\nAnd yet, two-thirds of all new AI data centers built since 2022 are located in high water stress zones. Two-thirds. Not because the companies don't know. But because land is cheap, permits are fast, and local governments — desperate for jobs and tax revenue — keep saying yes.",
+        "broll": [
+          {
+            "id": "broll_4_1",
+            "description": "Phoenix skyline. Blazing sun. Heat shimmer. On-screen text: 'Phoenix, Arizona — currently under extreme drought.'",
+            "type": "exterior",
+            "semantic_tags": ["Phoenix", "Arizona", "drought", "desert", "heat", "skyline"]
+          },
+          {
+            "id": "broll_4_2",
+            "description": "Dried cracked Colorado River bed. Mud. No water.",
+            "type": "stock",
+            "semantic_tags": ["Colorado River", "dry", "cracked", "drought", "water crisis"]
+          },
+          {
+            "id": "broll_4_3",
+            "description": "Data center construction site in desert. Cranes. Flat land. Massive scale.",
+            "type": "exterior",
+            "semantic_tags": ["construction", "data center", "desert", "cranes", "Arizona", "scale"]
+          },
+          {
+            "id": "broll_4_4",
+            "description": "Abandoned cotton or alfalfa field in Arizona. Withered crops. Ripped-up farmland.",
+            "type": "stock",
+            "semantic_tags": ["abandoned farm", "Arizona", "cotton", "alfalfa", "drought", "agriculture failure"]
+          },
+          {
+            "id": "broll_4_5",
+            "description": "Animation: US map. Dots marking data center locations. Overlay: red shading = high water stress zones. 2/3 of dots inside red zones.",
+            "type": "animation",
+            "semantic_tags": ["US map", "water stress", "data centers", "drought zones", "World Resources Institute", "2/3"]
+          }
+        ],
+        "stats_cited": ["stat_008", "stat_009", "stat_010"],
+        "companies_referenced": ["Google", "Meta", "Tract"],
+        "locations_referenced": ["Phoenix Arizona", "Mesa Arizona", "Buckeye Arizona", "Colorado River"]
+      },
+      {
+        "id": "act_5",
+        "number": 5,
+        "name": "The Hidden Third Layer — Chips",
+        "theme": "explainer — semiconductor manufacturing water use",
+        "timestamp_start": "07:50",
+        "timestamp_end": "09:10",
+        "duration_seconds": 80,
+        "narration_word_count": 185,
+        "retention_device": "escalation — viewer thought they understood the problem, but there is a deeper layer they missed",
+        "keywords": ["TSMC", "semiconductor", "chip manufacturing", "ultrapure water", "Nvidia GPU", "chip fab", "Phoenix", "5 million gallons per day"],
+        "narration": "But here's what almost no one is talking about.\n\nThe data centers themselves are only part of the water problem. Before a single chip gets installed in a server rack, before it ever processes a single query — it had to be made.\n\nSemiconductor manufacturing is one of the most water-intensive industrial processes that exists. Chip factories need what's called ultrapure water — water so clean it doesn't even conduct electricity — for washing chips during the manufacturing process. A single semiconductor facility uses up to five million gallons of ultrapure water per day.\n\nAnd right now, TSMC — the Taiwanese company that makes most of the world's advanced AI chips, including the ones inside every iPhone and every Nvidia GPU — is building a multi-billion dollar chip factory in Phoenix, Arizona.\n\nThe same Phoenix. The same drought. The same depleted Colorado River.\n\nSo when you think about AI's water footprint, you're not just looking at the cooling towers behind the data center. You're looking at the factory that built the machine inside it. And that factory is thirsty too.",
+        "broll": [
+          {
+            "id": "broll_5_1",
+            "description": "Close-up: Nvidia GPU chip. Gleaming. Tiny transistors under macro lens.",
+            "type": "closeup",
+            "semantic_tags": ["GPU", "chip", "semiconductor", "Nvidia", "macro", "technology"]
+          },
+          {
+            "id": "broll_5_2",
+            "description": "Chip fab cleanroom interior — workers in full white suits. Robotic arms. Extreme cleanliness.",
+            "type": "interior",
+            "semantic_tags": ["cleanroom", "TSMC", "chip manufacturing", "semiconductor fab", "workers", "white suits"]
+          },
+          {
+            "id": "broll_5_3",
+            "description": "Industrial pipes carrying ultrapure water. Blue pipes, sterile environment.",
+            "type": "interior",
+            "semantic_tags": ["ultrapure water", "pipes", "water treatment", "industrial", "chip fab"]
+          },
+          {
+            "id": "broll_5_4",
+            "description": "Aerial: TSMC construction site in Phoenix. Enormous scale. Desert visible. Same shot as Act 4 data center construction — visual echo.",
+            "type": "aerial",
+            "semantic_tags": ["TSMC", "Phoenix", "construction", "aerial", "chip factory", "Arizona", "desert"]
+          },
+          {
+            "id": "broll_5_5",
+            "description": "Animation: chain graphic — ChatGPT query → data center → chip inside server → chip factory → water. Each link labeled.",
+            "type": "animation",
+            "semantic_tags": ["supply chain", "water chain", "explainer", "diagram", "full footprint"]
+          }
+        ],
+        "stats_cited": ["stat_011"],
+        "companies_referenced": ["TSMC", "Nvidia", "Apple"],
+        "locations_referenced": ["Phoenix Arizona"]
+      },
+      {
+        "id": "act_6",
+        "number": 6,
+        "name": "Where This Is Going",
+        "theme": "projections — Morgan Stanley report, regulations, scale",
+        "timestamp_start": "09:10",
+        "timestamp_end": "10:05",
+        "duration_seconds": 55,
+        "narration_word_count": 155,
+        "retention_device": "countdown stakes — 2028 is very close",
+        "keywords": ["Morgan Stanley", "1 trillion liters", "11x growth", "2028", "190 bills", "Netherlands ban", "Arizona surcharge", "water scarcity", "Denmark comparison"],
+        "narration": "Here's where this goes.\n\nIn September 2025, Morgan Stanley published a report. It projected that by 2028 — just two years from now — AI data centers could increase global water consumption by eleven times. Not eleven percent. Eleven times. A total of over one trillion liters of water per year.\n\nFor context: that is more water than the entire country of Denmark uses in a year. Consumed not by farms. Not by cities. Not by people. By servers. Running AI models. So that you can get a recipe faster.\n\nAnd the problem isn't just volume — it's location. More than half of the world's major data center hubs already sit in regions facing water scarcity. In 2025, over 190 data center bills were introduced across US state legislatures. Arizona's governor proposed a one-cent-per-gallon water surcharge on tech companies. The Netherlands already banned hyperscale data centers entirely.\n\nThese aren't fringe reactions. This is governments starting to panic.",
+        "broll": [
+          {
+            "id": "broll_6_1",
+            "description": "Camera slowly pulling back from a single data center to reveal dozens, then hundreds across a US map.",
+            "type": "animation",
+            "semantic_tags": ["scale", "pullback", "data centers", "US map", "expansion"]
+          },
+          {
+            "id": "broll_6_2",
+            "description": "Infographic animation: line graph shooting upward to 1,068,000,000,000. Number slams onto screen.",
+            "type": "animation",
+            "semantic_tags": ["1 trillion liters", "projection", "2028", "Morgan Stanley", "graph", "data viz"]
+          },
+          {
+            "id": "broll_6_3",
+            "description": "Map of the Netherlands. Red X. 'Hyperscale data centers: BANNED.'",
+            "type": "animation",
+            "semantic_tags": ["Netherlands", "ban", "regulation", "hyperscale", "Europe"]
+          },
+          {
+            "id": "broll_6_4",
+            "description": "State legislature chamber interior. Politicians at desks.",
+            "type": "stock",
+            "semantic_tags": ["legislature", "government", "regulation", "politics", "state law"]
+          }
+        ],
+        "stats_cited": ["stat_012", "stat_013", "stat_014"],
+        "companies_referenced": [],
+        "locations_referenced": ["Netherlands", "Arizona", "United States"]
+      },
+      {
+        "id": "act_7",
+        "number": 7,
+        "name": "The Community That Won",
+        "theme": "solution — Quincy Washington as proof the deal is negotiable",
+        "timestamp_start": "10:05",
+        "timestamp_end": "11:05",
+        "duration_seconds": 60,
+        "narration_word_count": 152,
+        "retention_device": "emotional release — after sustained outrage, a proof point that communities can win",
+        "keywords": ["Quincy Washington", "Microsoft", "negotiation", "water recycling", "35 million", "380 million gallons saved", "community win", "Columbia Basin"],
+        "narration": "But it doesn't have to go only one way.\n\nIn Quincy, Washington — a small farming town in the Columbia Basin — Microsoft built one of its largest data centers. And the community did something different. Instead of letting the company write its own terms, residents and local officials pushed back hard. They negotiated.\n\nThe result: Microsoft funded a $35 million water recycling facility. It saves 380 million gallons of water every year. Water that would have evaporated into nothing is now being recaptured, cleaned, and reused by the community.\n\nIt's not a perfect solution. It doesn't cancel out what's happening in Phoenix, or The Dalles, or Chile, or Spain. But it proves something important: the outcome is not fixed. These deals are negotiable. The companies will push for as much as you let them take.\n\nAnd in Quincy, they pushed back.",
+        "broll": [
+          {
+            "id": "broll_7_1",
+            "description": "Quincy, Washington — small farming town. Green fields. Water irrigation visible. Contrasts with Phoenix.",
+            "type": "aerial",
+            "semantic_tags": ["Quincy", "Washington", "farming", "green", "irrigation", "Columbia Basin"]
+          },
+          {
+            "id": "broll_7_2",
+            "description": "Microsoft data center in Quincy — exterior, large, but surrounded by farmland.",
+            "type": "exterior",
+            "semantic_tags": ["Microsoft", "Quincy", "data center", "rural", "Washington state"]
+          },
+          {
+            "id": "broll_7_3",
+            "description": "Water recycling / reclamation facility — clean pipes, tanks, treated water flowing.",
+            "type": "exterior",
+            "semantic_tags": ["water recycling", "reclamation", "facility", "clean water", "solution"]
+          },
+          {
+            "id": "broll_7_4",
+            "description": "Community meeting room. Residents at tables with papers. Local officials. Normal people, not politicians.",
+            "type": "stock",
+            "semantic_tags": ["community meeting", "residents", "negotiation", "local government", "town hall"]
+          }
+        ],
+        "stats_cited": ["stat_015", "stat_016"],
+        "companies_referenced": ["Microsoft"],
+        "locations_referenced": ["Quincy Washington", "Columbia Basin", "Chile", "Spain"]
+      },
+      {
+        "id": "act_8",
+        "number": 8,
+        "name": "Outro",
+        "theme": "philosophical close — fairness, stakes, call to share",
+        "timestamp_start": "11:05",
+        "timestamp_end": "12:00",
+        "duration_seconds": 55,
+        "narration_word_count": 133,
+        "retention_device": "moral reframe — not doom, not guilt, but a question of who decides",
+        "keywords": ["counterpoint", "golf courses", "fairness", "who decides", "deal", "your query their water", "subscribe"],
+        "narration": "Now — before you feel like you need to delete ChatGPT — here's the fair counterpoint.\n\nSome researchers argue the numbers get overstated. That most water withdrawn by data centers is returned to local sources, not permanently consumed. That golf courses in Phoenix use thirty times more water than every data center in the county combined. That the electricity grid — not the cooling towers — is the bigger long-term problem.\n\nBoth things can be true.\n\nThe real question isn't whether AI is worse than golf. The question is: who gets to decide?\n\nRight now, in The Dalles, in Phoenix, in Mesa, in places you've never heard of — a deal is being made. Your query, their water. Your convenience, their drought.\n\nAnd most people don't even know the deal exists.\n\nIf you found this because you were curious — that's exactly why this matters. Share it with someone who should know.",
+        "broll": [
+          {
+            "id": "broll_8_1",
+            "description": "Slow pull-back from a single server rack → data center → city → satellite view of Earth.",
+            "type": "aerial",
+            "semantic_tags": ["pullback", "scale", "earth", "perspective", "satellite"]
+          },
+          {
+            "id": "broll_8_2",
+            "description": "Close-up of a water tap. Someone turns it on. Water flows. Then — slowly — slows to a drip. Fade to black.",
+            "type": "closeup",
+            "semantic_tags": ["tap", "water drip", "fading", "close", "metaphor", "ending"]
+          },
+          {
+            "id": "broll_8_3",
+            "description": "End card: channel logo, subscribe button, related video thumbnail.",
+            "type": "end_card",
+            "semantic_tags": ["end card", "subscribe", "channel", "outro"]
+          }
+        ],
+        "stats_cited": ["stat_017"],
+        "companies_referenced": [],
+        "locations_referenced": ["The Dalles Oregon", "Phoenix Arizona", "Mesa Arizona"]
+      }
+    ],
+  
+    "stats": [
+      {
+        "id": "stat_001",
+        "claim": "A single mid-sized AI data center uses around two million liters of water per day",
+        "figure": "2,000,000",
+        "unit": "liters per day",
+        "equivalent": "daily drinking water for 6,500 people",
+        "source": "International Energy Agency",
+        "year": 2025,
+        "verified": true,
+        "acts_cited_in": ["act_1"],
+        "tags": ["data center", "daily consumption", "liters", "IEA", "general"]
+      },
+      {
+        "id": "stat_002",
+        "claim": "Google consumed 8.1 billion gallons of water across its global data center fleet in 2024",
+        "figure": "8,100,000,000",
+        "unit": "gallons",
+        "period": "annual 2024",
+        "source": "Google Sustainability Report 2024",
+        "year": 2024,
+        "verified": true,
+        "acts_cited_in": ["act_2"],
+        "tags": ["Google", "global", "annual", "2024", "gallons"]
+      },
+      {
+        "id": "stat_003",
+        "claim": "Google's Council Bluffs Iowa data center used over 1 billion gallons in 2024, peaking at 2.7 million gallons on its heaviest day",
+        "figure": "1,000,000,000",
+        "unit": "gallons per year",
+        "peak_figure": "2,700,000",
+        "peak_unit": "gallons per day",
+        "source": "Google disclosure 2024 / multiple reports",
+        "year": 2024,
+        "verified": true,
+        "acts_cited_in": ["act_2"],
+        "tags": ["Google", "Iowa", "Council Bluffs", "single site", "peak"]
+      },
+      {
+        "id": "stat_004",
+        "claim": "Microsoft used 68.5 million gallons of water across five West Des Moines Iowa facilities in 2024, making it the region's largest water user",
+        "figure": "68,500,000",
+        "unit": "gallons per year",
+        "source": "KCUR / multiple reports",
+        "year": 2024,
+        "verified": true,
+        "acts_cited_in": ["act_2"],
+        "tags": ["Microsoft", "Iowa", "West Des Moines", "largest water user", "2024"]
+      },
+      {
+        "id": "stat_005",
+        "claim": "Training GPT-4 consumed 13.4 million gallons of water in a single month at Microsoft's Iowa data centers",
+        "figure": "13,400,000",
+        "unit": "gallons per month",
+        "source": "Futurism / UC Riverside research",
+        "year": 2022,
+        "context": "Training run at Microsoft West Des Moines, August 2022",
+        "verified": true,
+        "acts_cited_in": ["act_2"],
+        "tags": ["GPT-4", "training", "Microsoft", "Iowa", "one-time", "model training"]
+      },
+      {
+        "id": "stat_006",
+        "claim": "Amazon does not publicly disclose its global data center water use",
+        "figure": "undisclosed",
+        "unit": null,
+        "source": "Source Material / multiple investigative reports",
+        "year": 2025,
+        "verified": true,
+        "acts_cited_in": ["act_2"],
+        "tags": ["Amazon", "transparency", "undisclosed", "secrecy"]
+      },
+      {
+        "id": "stat_007",
+        "claim": "Google's data centers in The Dalles Oregon consumed 274.5 million gallons of water in one year — roughly a third of the city's entire water supply",
+        "figure": "274,500,000",
+        "unit": "gallons per year",
+        "source": "Oregon public records settlement / The Oregonian 2022",
+        "year": 2022,
+        "context": "Disclosed after 13-month legal fight between the city and The Oregonian newspaper",
+        "verified": true,
+        "acts_cited_in": ["act_3"],
+        "tags": ["Google", "The Dalles", "Oregon", "lawsuit", "public records", "trade secret"]
+      },
+      {
+        "id": "stat_008",
+        "claim": "Google's Mesa Arizona data center has a permit to use 5.5 million cubic meters of water per year — equivalent to 23,000 ordinary Arizonans",
+        "figure": "5,500,000",
+        "unit": "cubic meters per year",
+        "equivalent": "water use of 23,000 Arizona residents",
+        "source": "Source Material / The Guardian",
+        "year": 2025,
+        "verified": true,
+        "acts_cited_in": ["act_4"],
+        "tags": ["Google", "Mesa", "Arizona", "permit", "23000 residents", "desert"]
+      },
+      {
+        "id": "stat_009",
+        "claim": "Arizona has revoked some residential building permits due to insufficient groundwater",
+        "figure": null,
+        "unit": null,
+        "source": "Grist / Arizona state officials",
+        "year": 2023,
+        "verified": true,
+        "acts_cited_in": ["act_4"],
+        "tags": ["Arizona", "groundwater", "permits revoked", "water shortage", "residential"]
+      },
+      {
+        "id": "stat_010",
+        "claim": "Two-thirds of all new AI data centers built since 2022 are in high water stress zones",
+        "figure": "66",
+        "unit": "percent",
+        "source": "World Resources Institute / DC Byte",
+        "year": 2025,
+        "verified": true,
+        "acts_cited_in": ["act_4"],
+        "tags": ["data centers", "water stress", "location", "drought zones", "World Resources Institute"]
+      },
+      {
+        "id": "stat_011",
+        "claim": "A single semiconductor fab uses up to 5 million gallons of ultrapure water per day",
+        "figure": "5,000,000",
+        "unit": "gallons per day",
+        "source": "Morgan Stanley report / multiple industry sources",
+        "year": 2025,
+        "verified": true,
+        "acts_cited_in": ["act_5"],
+        "tags": ["semiconductor", "chip fab", "TSMC", "ultrapure water", "manufacturing"]
+      },
+      {
+        "id": "stat_012",
+        "claim": "Morgan Stanley projects AI data centers will increase global water consumption 11-fold by 2028, reaching 1,068 billion liters annually",
+        "figure": "1,068,000,000,000",
+        "unit": "liters per year by 2028",
+        "growth": "11x from 2024 baseline",
+        "source": "Morgan Stanley research report",
+        "year": 2025,
+        "report_date": "September 2025",
+        "verified": true,
+        "acts_cited_in": ["act_6"],
+        "tags": ["Morgan Stanley", "projection", "2028", "11x", "1 trillion", "global"]
+      },
+      {
+        "id": "stat_013",
+        "claim": "More than half of the world's major data center hubs are in regions already facing water scarcity",
+        "figure": ">50",
+        "unit": "percent",
+        "source": "Morgan Stanley / multiple sources",
+        "year": 2025,
+        "verified": true,
+        "acts_cited_in": ["act_6"],
+        "tags": ["water scarcity", "location", "data centers", "global", "drought"]
+      },
+      {
+        "id": "stat_014",
+        "claim": "Over 190 data center bills were introduced across US state legislatures in 2025",
+        "figure": "190",
+        "unit": "bills introduced",
+        "source": "AI Tool Discovery / multiple sources",
+        "year": 2025,
+        "verified": true,
+        "acts_cited_in": ["act_6"],
+        "tags": ["regulation", "legislation", "US", "state laws", "2025", "policy"]
+      },
+      {
+        "id": "stat_015",
+        "claim": "Microsoft funded a $35 million water recycling facility in Quincy Washington after community negotiation",
+        "figure": "35,000,000",
+        "unit": "USD",
+        "source": "Multiple sustainability reports",
+        "year": 2024,
+        "verified": true,
+        "acts_cited_in": ["act_7"],
+        "tags": ["Microsoft", "Quincy", "Washington", "water recycling", "community", "solution"]
+      },
+      {
+        "id": "stat_016",
+        "claim": "The Quincy Washington water recycling facility saves 380 million gallons of water annually",
+        "figure": "380,000,000",
+        "unit": "gallons per year saved",
+        "source": "Multiple sustainability reports",
+        "year": 2024,
+        "verified": true,
+        "acts_cited_in": ["act_7"],
+        "tags": ["Microsoft", "Quincy", "saved", "recycled", "380 million", "solution"]
+      },
+      {
+        "id": "stat_017",
+        "claim": "Phoenix area golf courses use roughly 29 billion gallons of water annually — about 30x the data center figure",
+        "figure": "29,000,000,000",
+        "unit": "gallons per year",
+        "context": "Maricopa County, Arizona. Data centers in same area used ~905 million gallons in 2025.",
+        "source": "Environmental analyst Andy Masley / AZFamily 2026",
+        "year": 2026,
+        "verified": true,
+        "acts_cited_in": ["act_8"],
+        "tags": ["golf courses", "Phoenix", "counterpoint", "comparison", "Arizona", "fairness"]
+      }
+    ],
+  
+    "people": [
+      {
+        "id": "dawn_rasmussen",
+        "name": "Dawn Rasmussen",
+        "role": "Local resident",
+        "location": "The Dalles, Oregon",
+        "acts_mentioned": ["act_3"],
+        "quote": "I'm flabbergasted. And I'm scared for the future.",
+        "story": "Resident of The Dalles who watched her personal well water level drop year after year as Google expanded its data centers. Testified at city council about water decline."
+      }
+    ],
+  
+    "companies": [
+      {
+        "id": "google",
+        "name": "Google",
+        "acts_featured": ["act_2", "act_3", "act_4"],
+        "stance": "antagonist — consumed 8.1B gallons globally, fought to keep The Dalles usage secret",
+        "stats_linked": ["stat_002", "stat_003", "stat_007", "stat_008"]
+      },
+      {
+        "id": "microsoft",
+        "name": "Microsoft",
+        "acts_featured": ["act_2", "act_7"],
+        "stance": "mixed — large consumer in Iowa, but also funded $35M recycling facility in Quincy",
+        "stats_linked": ["stat_004", "stat_005", "stat_015", "stat_016"]
+      },
+      {
+        "id": "amazon",
+        "name": "Amazon",
+        "acts_featured": ["act_2"],
+        "stance": "antagonist — largest infrastructure builder with zero public water disclosure",
+        "stats_linked": ["stat_006"]
+      },
+      {
+        "id": "meta",
+        "name": "Meta",
+        "acts_featured": ["act_4"],
+        "stance": "antagonist — opened $1B data center in drought-stricken Mesa Arizona",
+        "stats_linked": []
+      },
+      {
+        "id": "tsmc",
+        "name": "TSMC",
+        "acts_featured": ["act_5"],
+        "stance": "spotlight — chip manufacturer building Phoenix fab using 5M gallons/day of ultrapure water",
+        "stats_linked": ["stat_011"]
+      }
+    ],
+  
+    "locations": [
+      {
+        "id": "loc_the_dalles",
+        "name": "The Dalles, Oregon",
+        "population": 16000,
+        "acts_featured": ["act_3", "act_8"],
+        "significance": "Site of Google's first data center. City sued its own newspaper for 13 months to protect Google's water use as a trade secret.",
+        "stats_linked": ["stat_007"]
+      },
+      {
+        "id": "loc_phoenix",
+        "name": "Phoenix / Mesa / Buckeye, Arizona",
+        "acts_featured": ["act_4", "act_5", "act_8"],
+        "significance": "Extreme drought zone hosting nearly 200 data centers and the TSMC chip fab. Google Mesa has a permit for 1.45B gallons/year.",
+        "stats_linked": ["stat_008", "stat_009", "stat_010", "stat_011", "stat_017"]
+      },
+      {
+        "id": "loc_quincy",
+        "name": "Quincy, Washington",
+        "acts_featured": ["act_7"],
+        "significance": "Small farming community in Columbia Basin that successfully negotiated with Microsoft. Microsoft funded $35M water recycling facility saving 380M gallons/year.",
+        "stats_linked": ["stat_015", "stat_016"]
+      },
+      {
+        "id": "loc_iowa",
+        "name": "Iowa (Council Bluffs / West Des Moines)",
+        "acts_featured": ["act_2"],
+        "significance": "Home to Google's single thirstiest data center (1B gallons/year) and Microsoft's five-facility cluster (68.5M gallons/year, largest regional user).",
+        "stats_linked": ["stat_003", "stat_004", "stat_005"]
+      }
+    ],
+  
+    "broll_master_list": [
+      { "id": "broll_0_1", "act": "act_0", "type": "audio_only", "tags": ["water", "drip", "silence", "tension"] },
+      { "id": "broll_0_2", "act": "act_0", "type": "closeup", "tags": ["water bottle", "hand"] },
+      { "id": "broll_0_3", "act": "act_0", "type": "aerial", "tags": ["data center", "desert", "Phoenix", "steam"] },
+      { "id": "broll_1_1", "act": "act_1", "type": "closeup", "tags": ["ChatGPT", "laptop", "AI", "typing"] },
+      { "id": "broll_1_2", "act": "act_1", "type": "interior", "tags": ["data center interior", "server racks", "GPU"] },
+      { "id": "broll_1_3", "act": "act_1", "type": "exterior", "tags": ["cooling tower", "steam", "evaporation"] },
+      { "id": "broll_1_4", "act": "act_1", "type": "animation", "tags": ["cooling cycle", "explainer diagram"] },
+      { "id": "broll_1_5", "act": "act_1", "type": "animation", "tags": ["counter", "2 million liters", "people comparison"] },
+      { "id": "broll_2_1", "act": "act_2", "type": "exterior", "tags": ["Google", "Microsoft", "Amazon", "campus"] },
+      { "id": "broll_2_2", "act": "act_2", "type": "animation", "tags": ["8.1 billion gallons", "Google", "stat"] },
+      { "id": "broll_2_3", "act": "act_2", "type": "animation", "tags": ["US map", "data centers", "expanding"] },
+      { "id": "broll_2_4", "act": "act_2", "type": "animation", "tags": ["Amazon", "undisclosed", "secrecy"] },
+      { "id": "broll_3_1", "act": "act_3", "type": "aerial", "tags": ["The Dalles", "Oregon", "Google data center", "small town"] },
+      { "id": "broll_3_2", "act": "act_3", "type": "stock", "tags": ["dry well", "drought", "rural Oregon"] },
+      { "id": "broll_3_3", "act": "act_3", "type": "exterior", "tags": ["courthouse", "city council", "legal"] },
+      { "id": "broll_3_4", "act": "act_3", "type": "closeup", "tags": ["newspaper", "The Oregonian", "public records"] },
+      { "id": "broll_3_5", "act": "act_3", "type": "aerial", "tags": ["orchards", "farmland", "The Dalles"] },
+      { "id": "broll_4_1", "act": "act_4", "type": "exterior", "tags": ["Phoenix", "Arizona", "drought", "desert", "heat"] },
+      { "id": "broll_4_2", "act": "act_4", "type": "stock", "tags": ["Colorado River", "dry", "cracked", "drought"] },
+      { "id": "broll_4_3", "act": "act_4", "type": "exterior", "tags": ["construction", "data center", "desert", "cranes"] },
+      { "id": "broll_4_4", "act": "act_4", "type": "stock", "tags": ["abandoned farm", "Arizona", "drought", "agriculture failure"] },
+      { "id": "broll_4_5", "act": "act_4", "type": "animation", "tags": ["US map", "water stress zones", "2/3"] },
+      { "id": "broll_5_1", "act": "act_5", "type": "closeup", "tags": ["GPU", "chip", "Nvidia", "semiconductor"] },
+      { "id": "broll_5_2", "act": "act_5", "type": "interior", "tags": ["cleanroom", "TSMC", "chip manufacturing"] },
+      { "id": "broll_5_3", "act": "act_5", "type": "interior", "tags": ["ultrapure water", "pipes", "chip fab"] },
+      { "id": "broll_5_4", "act": "act_5", "type": "aerial", "tags": ["TSMC", "Phoenix", "construction", "desert"] },
+      { "id": "broll_5_5", "act": "act_5", "type": "animation", "tags": ["supply chain", "water chain", "full footprint"] },
+      { "id": "broll_6_1", "act": "act_6", "type": "animation", "tags": ["scale", "pullback", "data centers expansion"] },
+      { "id": "broll_6_2", "act": "act_6", "type": "animation", "tags": ["1 trillion liters", "Morgan Stanley", "graph"] },
+      { "id": "broll_6_3", "act": "act_6", "type": "animation", "tags": ["Netherlands", "ban", "regulation"] },
+      { "id": "broll_6_4", "act": "act_6", "type": "stock", "tags": ["legislature", "government", "regulation"] },
+      { "id": "broll_7_1", "act": "act_7", "type": "aerial", "tags": ["Quincy", "Washington", "farming", "green", "Columbia Basin"] },
+      { "id": "broll_7_2", "act": "act_7", "type": "exterior", "tags": ["Microsoft", "Quincy", "data center", "rural"] },
+      { "id": "broll_7_3", "act": "act_7", "type": "exterior", "tags": ["water recycling", "facility", "solution"] },
+      { "id": "broll_7_4", "act": "act_7", "type": "stock", "tags": ["community meeting", "residents", "negotiation", "town hall"] },
+      { "id": "broll_8_1", "act": "act_8", "type": "aerial", "tags": ["pullback", "earth", "satellite", "perspective"] },
+      { "id": "broll_8_2", "act": "act_8", "type": "closeup", "tags": ["tap", "water drip", "fading", "ending"] },
+      { "id": "broll_8_3", "act": "act_8", "type": "end_card", "tags": ["subscribe", "channel", "outro"] }
+    ]
+  }
