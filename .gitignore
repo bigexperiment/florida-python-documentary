@@ -1,15 +1,17 @@
-# Generated outputs (rebuild with scripts/)
-output/
+# Whisper model weights (download locally; too large for GitHub)
+**/models/
 
-# Source media and models (too large for GitHub; add locally)
-assets/
-models/
+# Extracted frames and audio (regenerate with catalog script)
+**/intermediate/
 
-# Intermediate artifacts (extracted frames, audio)
-intermediate/
+# Rendered outputs over GitHub's 100MB limit
+projects/*/output/final_documentary_2.mp4
+projects/*/output/final_documentary_3.mp4
+projects/*/output/final_documentary_4.mp4
+projects/*/output/final_documentary_6.mp4
 
-# Sync audit/review reports with embedded frames
-reports/
+# Regeneratable audit/review frame JPEGs (JSON reports are tracked)
+projects/*/reports/**/*.jpg
 
 # OS / Python
 .DS_Store

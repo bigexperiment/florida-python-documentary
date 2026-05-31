@@ -1,8 +1,15 @@
-"""Shared project paths — all scripts resolve files relative to the repo root."""
+"""Shared project paths — scripts resolve files relative to a project folder."""
 
+from __future__ import annotations
+
+import os
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+REPO_ROOT = Path(__file__).resolve().parent.parent
+PROJECT_NAME = os.environ.get("DOCUMENTARY_PROJECT", "burmese-python")
+
+ROOT = REPO_ROOT / "projects" / PROJECT_NAME
+PROMPTS = REPO_ROOT / "prompts" / PROJECT_NAME
 
 ASSETS = ROOT / "assets"
 BROLL = ASSETS / "broll"
@@ -30,7 +37,8 @@ MAIN_VIDEO = MAIN / "The_Asymmetric_War__Florida_vs.mp4"
 NARRATION_MP3 = AUDIO / (
     "ElevenLabs_2026-05-23T01_28_35_Daniel - Steady Broadcaster_pre_sp100_s50_sb75_se0_b_m2.mp3"
 )
-TRANSCRIPT = TRANSCRIPTS / "full-video-transcript.txt"
+NARRATION_PROMPT = PROMPTS / "narration.txt"
+TRANSCRIPT = NARRATION_PROMPT
 NARRATION_WHISPER = WHISPER / "narration_whisper.json"
 MAIN_VIDEO_WHISPER = WHISPER / "main_video_whisper.json"
 CATALOG_JSON = CATALOG_DIR / "main_video_catalog.json"
