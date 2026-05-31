@@ -53,8 +53,8 @@ def build_concat_filter(inputs: list[Path]) -> str:
 
 
 ROOT = Path(__file__).resolve().parent.parent
-BROLL = ROOT / "assets" / "broll"
-OUTPUT_DIR = ROOT / "output"
+sys.path.insert(0, str(ROOT))
+from project_paths import BROLL, OUTPUT_DIR  # noqa: E402
 
 
 def main() -> int:

@@ -12,20 +12,20 @@ import tempfile
 from dataclasses import dataclass
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-
-ROOT = Path(__file__).resolve().parent.parent
-DOCS = ROOT / "docs"
-OUTPUT_DIR = ROOT / "output"
-NARRATION = ROOT / "assets" / "audio" / (
-    "ElevenLabs_2026-05-23T01_28_35_Daniel - Steady Broadcaster_pre_sp100_s50_sb75_se0_b_m2.mp3"
+from project_paths import (  # noqa: E402
+    CATALOG_JSON,
+    MAIN_VIDEO,
+    NARRATION_MP3 as NARRATION,
+    OUTPUT_DIR,
+    PLANS,
+    TRANSCRIPT,
+    NARRATION_WHISPER as WHISPER_JSON,
 )
-TRANSCRIPT = DOCS / "full-video-transcript.txt"
-WHISPER_JSON = DOCS / "narration_whisper.json"
-CATALOG_JSON = DOCS / "main_video_catalog.json"
-MAIN_VIDEO = ROOT / "assets" / "main" / "The_Asymmetric_War__Florida_vs.mp4"
+
 OUTPUT = OUTPUT_DIR / "final_documentary_6.mp4"
-PLAN_OUT = DOCS / "final_documentary_6_plan.json"
+PLAN_OUT = PLANS / "final_documentary_6_plan.json"
 
 MIN_SHOT = 3.0
 MAX_SHOT = 5.0

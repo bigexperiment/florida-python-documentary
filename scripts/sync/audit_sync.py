@@ -9,8 +9,8 @@ import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-DOCS = ROOT / "docs"
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from project_paths import ROOT, SYNC_AUDIT  # noqa: E402
 
 
 def probe_duration(path: Path) -> float:
@@ -48,7 +48,7 @@ def main() -> int:
     p = argparse.ArgumentParser()
     p.add_argument("--video", type=Path, required=True)
     p.add_argument("--plan", type=Path, required=True)
-    p.add_argument("--out-dir", type=Path, default=DOCS / "sync_audit")
+    p.add_argument("--out-dir", type=Path, default=SYNC_AUDIT)
     args = p.parse_args()
 
     plan = json.loads(args.plan.read_text())

@@ -7,18 +7,18 @@ import json
 import subprocess
 import sys
 from dataclasses import dataclass
+import sys
 from pathlib import Path
 
-
-ROOT = Path(__file__).resolve().parent.parent
-BROLL = ROOT / "assets" / "broll"
-AUDIO = ROOT / "assets" / "audio"
-DOCS = ROOT / "docs"
-OUTPUT_DIR = ROOT / "output"
-NARRATION = AUDIO / (
-    "ElevenLabs_2026-05-23T01_28_35_Daniel - Steady Broadcaster_pre_sp100_s50_sb75_se0_b_m2.mp3"
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from project_paths import (  # noqa: E402
+    BROLL,
+    NARRATION_MP3 as NARRATION,
+    OUTPUT_DIR,
+    PLANS,
+    TRANSCRIPT,
 )
-TRANSCRIPT = DOCS / "full-video-transcript.txt"
+
 OUTPUT = OUTPUT_DIR / "final_documentary.mp4"
 
 TRANSITION_SEC = 0.65
@@ -209,7 +209,7 @@ def main() -> int:
             for seg in segments
         ],
     }
-    (DOCS / "cinematic_documentary_plan.json").write_text(
+    (PLANS / "cinematic_documentary_plan.json").write_text(
         json.dumps(meta, indent=2), encoding="utf-8"
     )
     print("Done.")

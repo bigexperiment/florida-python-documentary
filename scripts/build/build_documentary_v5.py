@@ -11,20 +11,20 @@ import tempfile
 from dataclasses import dataclass
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-BROLL = ROOT / "assets" / "broll"
-MAIN = ROOT / "assets" / "main"
-AUDIO = ROOT / "assets" / "audio"
-DOCS = ROOT / "docs"
-OUTPUT_DIR = ROOT / "output"
-NARRATION = AUDIO / (
-    "ElevenLabs_2026-05-23T01_28_35_Daniel - Steady Broadcaster_pre_sp100_s50_sb75_se0_b_m2.mp3"
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from project_paths import (  # noqa: E402
+    BROLL,
+    CATALOG_JSON,
+    MAIN,
+    MAIN_VIDEO,
+    NARRATION_MP3 as NARRATION,
+    OUTPUT_DIR,
+    PLANS,
+    NARRATION_WHISPER as WHISPER_JSON,
 )
-WHISPER_JSON = DOCS / "narration_whisper.json"
-CATALOG_JSON = DOCS / "main_video_catalog.json"
-MAIN_VIDEO = MAIN / "The_Asymmetric_War__Florida_vs.mp4"
+
 OUTPUT = OUTPUT_DIR / "final_documentary_5.mp4"
-PLAN_OUT = DOCS / "final_documentary_5_plan.json"
+PLAN_OUT = PLANS / "final_documentary_5_plan.json"
 CHUNK_SIZE = 8
 MIN_SCORE = 8
 

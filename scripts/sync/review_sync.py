@@ -10,9 +10,8 @@ import sys
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parent.parent
-DOCS = ROOT / "docs"
-WHISPER_JSON = DOCS / "narration_whisper.json"
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from project_paths import NARRATION_WHISPER as WHISPER_JSON, ROOT, SYNC_REVIEW  # noqa: E402
 
 
 def probe_duration(path: Path) -> float:
@@ -127,7 +126,7 @@ def main() -> int:
     parser.add_argument(
         "--out-dir",
         type=Path,
-        default=DOCS / "sync_review",
+        default=SYNC_REVIEW,
     )
     args = parser.parse_args()
 

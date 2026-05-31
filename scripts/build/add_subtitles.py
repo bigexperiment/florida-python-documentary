@@ -12,16 +12,17 @@ import sys
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parent.parent
-AUDIO = ROOT / "assets" / "audio"
-DOCS = ROOT / "docs"
-OUTPUT_DIR = ROOT / "output"
-DEFAULT_VIDEO = OUTPUT_DIR / "final_documentary.mp4"
-DEFAULT_NARRATION = AUDIO / (
-    "ElevenLabs_2026-05-23T01_28_35_Daniel - Steady Broadcaster_pre_sp100_s50_sb75_se0_b_m2.mp3"
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from project_paths import (  # noqa: E402
+    NARRATION_MP3 as DEFAULT_NARRATION,
+    NARRATION_WHISPER as WHISPER_JSON,
+    OUTPUT_DIR,
+    SUBTITLES,
+    TRANSCRIPT as DEFAULT_TRANSCRIPT,
+    TRANSCRIPTS,
 )
-DEFAULT_TRANSCRIPT = DOCS / "full-video-transcript.txt"
-WHISPER_JSON = DOCS / "narration_whisper.json"
+
+DEFAULT_VIDEO = OUTPUT_DIR / "final_documentary.mp4"
 MAX_LINE = 44
 
 
@@ -290,11 +291,11 @@ def main() -> int:
     parser.add_argument("--narration", type=Path, default=DEFAULT_NARRATION)
     parser.add_argument("--transcript", type=Path, default=DEFAULT_TRANSCRIPT)
     parser.add_argument("--output", type=Path, default=OUTPUT_DIR / "final_documentary_subtitled.mp4")
-    parser.add_argument("--srt", type=Path, default=DOCS / "final_documentary.srt")
+    parser.add_argument("--srt", type=Path, default=SUBTITLES / "final_documentary.srt")
     parser.add_argument(
         "--timestamped",
         type=Path,
-        default=DOCS / "final_documentary_timestamped_transcript.txt",
+        default=TRANSCRIPTS / "final_documentary_timestamped_transcript.txt",
     )
     args = parser.parse_args()
 

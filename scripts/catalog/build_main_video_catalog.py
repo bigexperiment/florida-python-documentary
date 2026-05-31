@@ -8,11 +8,14 @@ import math
 import re
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-MAIN_VIDEO = ROOT / "assets" / "main" / "The_Asymmetric_War__Florida_vs.mp4"
-WHISPER_JSON = ROOT / "docs" / "main_video_whisper.json"
-FRAMES_DIR = ROOT / "docs" / "main_video_frames"
-CATALOG_OUT = ROOT / "docs" / "main_video_catalog.json"
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from project_paths import (  # noqa: E402
+    CATALOG_DIR,
+    CATALOG_JSON as CATALOG_OUT,
+    FRAMES_DIR,
+    MAIN_VIDEO,
+    MAIN_VIDEO_WHISPER as WHISPER_JSON,
+)
 
 TOPIC_RANGES: list[tuple[int, int, str, str]] = [
     (0, 37, "everglades", "Everglades landscape and invasive predator introduction"),
@@ -115,7 +118,7 @@ def main() -> int:
         transcript = transcript_at_second(segments, second)
         topic, topic_summary = topic_for_second(second)
         frame_num = second + 1  # ffmpeg fps=1 starts at frame_0001
-        frame_rel = f"docs/main_video_frames/frame_{frame_num:04d}.jpg"
+        frame_rel = f"intermediate/main_video_frames/frame_{frame_num:04d}.jpg"
         entries.append(
             {
                 "second": second,
@@ -130,8 +133,8 @@ def main() -> int:
     catalog = {
         "source": "The_Asymmetric_War__Florida_vs.mp4",
         "duration": 366.29,
-        "frames_dir": "docs/main_video_frames/",
-        "whisper_source": "docs/main_video_whisper.json",
+        "frames_dir": "intermediate/main_video_frames/",
+        "whisper_source": "data/whisper/main_video_whisper.json",
         "segments": entries,
     }
     CATALOG_OUT.write_text(json.dumps(catalog, indent=2), encoding="utf-8")

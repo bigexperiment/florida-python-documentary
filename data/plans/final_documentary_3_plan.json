@@ -1,7 +1,7 @@
 {
-  "output": "/Users/ganesh/Downloads/abc/output/final_documentary_3.mp4",
+  "output": "output/final_documentary_3.mp4",
   "audio_duration": 334.367313,
-  "catalog": "/Users/ganesh/Downloads/abc/docs/main_video_catalog.json",
+  "catalog": "data/catalog/main_video_catalog.json",
   "matching_strategy": "Per-section topic ranges + keyword scoring from main_video_catalog.json",
   "sections": [
     {

@@ -1,5 +1,5 @@
 {
-  "output": "/Users/ganesh/Downloads/abc/output/final_documentary_4.mp4",
+  "output": "output/final_documentary_4.mp4",
   "audio_duration": 334.367313,
   "sync_method": "Whisper slot boundaries + hard concat (no xfade drift)",
   "shots": [

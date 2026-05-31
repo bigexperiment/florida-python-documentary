@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build final_documentary_3.mp4 using main_video_catalog.json for semantic clip selection."""
+"""Build final_documentary_2.mp4: fast cuts, whisper-synced, no repeated frames."""
 
 from __future__ import annotations
 
@@ -12,21 +12,20 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 
-ROOT = Path(__file__).resolve().parent.parent
-BROLL = ROOT / "assets" / "broll"
-MAIN = ROOT / "assets" / "main"
-AUDIO = ROOT / "assets" / "audio"
-DOCS = ROOT / "docs"
-OUTPUT_DIR = ROOT / "output"
-NARRATION = AUDIO / (
-    "ElevenLabs_2026-05-23T01_28_35_Daniel - Steady Broadcaster_pre_sp100_s50_sb75_se0_b_m2.mp3"
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from project_paths import (  # noqa: E402
+    BROLL,
+    MAIN,
+    MAIN_VIDEO,
+    NARRATION_MP3 as NARRATION,
+    OUTPUT_DIR,
+    PLANS,
+    TRANSCRIPT,
+    NARRATION_WHISPER as WHISPER_JSON,
 )
-TRANSCRIPT = DOCS / "full-video-transcript.txt"
-WHISPER_JSON = DOCS / "narration_whisper.json"
-CATALOG_JSON = DOCS / "main_video_catalog.json"
-MAIN_VIDEO = MAIN / "The_Asymmetric_War__Florida_vs.mp4"
-OUTPUT = OUTPUT_DIR / "final_documentary_3.mp4"
-PLAN_OUT = DOCS / "final_documentary_3_plan.json"
+
+OUTPUT = OUTPUT_DIR / "final_documentary_2.mp4"
+PLAN_OUT = PLANS / "final_documentary_2_plan.json"
 
 MIN_SHOT = 3.0
 MAX_SHOT = 5.0
@@ -40,8 +39,6 @@ class Shot:
     src_start: float
     duration: float
     label: str
-    catalog_second: int | None = None
-    match_reason: str = ""
 
 
 @dataclass
@@ -50,137 +47,110 @@ class Section:
     start: float
     end: float
     title: str
-    topics: list[str]
-    keywords: list[str]
-    second_range: tuple[int, int]
     broll: list[str] = field(default_factory=list)
+    main_hints: list[float] = field(default_factory=list)
 
 
 SECTION_DEFS = [
-    Section(
-        1,
-        0,
-        0,
-        "Everglades opener",
-        ["everglades"],
-        ["everglades", "sawgrass", "ecosystem", "predator", "surface", "specialized"],
-        (0, 37),
-        ["into.mp4"],
-    ),
+    Section(1, 0, 0, "Everglades opener", ["into.mp4"], [5, 18, 32]),
     Section(
         2,
         0,
         0,
         "Exotic pet trade",
-        ["pet_trade"],
-        ["miami", "exotic", "pet", "reptile", "import", "enclosure", "release", "1980"],
-        (37, 65),
         ["Python_moving_in_swamp_water_202605222056.mp4"],
+        [42, 55, 68, 82],
     ),
     Section(
         3,
         0,
         0,
         "Hurricane Andrew",
-        ["hurricane"],
-        ["hurricane", "andrew", "1992", "storm", "category", "breeding", "facility"],
-        (65, 90),
         ["Hurricane_destroys_reptile_facility_202605222058.mp4"],
+        [64, 78, 92, 108],
     ),
     Section(
         4,
         0,
         0,
         "Ecosystem collapse",
-        ["ecosystem_collapse", "python_biology", "population"],
-        [
-            "mammal",
-            "raccoon",
-            "opossum",
-            "extinct",
-            "camouflage",
-            "egg",
-            "predator",
-            "collapse",
-            "food web",
-        ],
-        (90, 180),
         ["Pythons_in_Everglades_landscape_202605222112.mp4"],
+        [118, 132, 145, 158, 172],
     ),
     Section(
         5,
         0,
         0,
         "Alligator predation",
-        ["alligator"],
-        ["alligator", "apex", "food chain", "predator eating", "consuming"],
-        (180, 220),
         [
             "Python_hunting_alligator_in_Ever*.mp4",
             "Python_swallowing_alligator_dawn_202605222100.mp4",
             "Python_swallowing_alligator_dawn_202605222103.mp4",
         ],
+        [185, 198],
     ),
     Section(
         6,
         0,
         0,
         "Scout snake program",
-        ["scout_snake"],
-        ["scout", "transmitter", "implant", "radio", "breeding aggregation", "tracked"],
-        (255, 285),
         ["Officers_capture_python_in_swamp_202605222033.mp4"],
+        [228, 242, 255],
     ),
     Section(
         7,
         0,
         0,
         "Hand capture",
-        ["scout_snake", "python_challenge"],
-        ["capture", "hand", "night", "headlamp", "hook", "officers", "swamp", "flashlight"],
-        (195, 215),
         ["Officers_capture_large_python_202605222105.mp4"],
+        [198, 212, 268, 282],
     ),
     Section(
         8,
         0,
         0,
         "Python Challenge",
-        ["python_challenge"],
-        ["python challenge", "hunters", "prize", "civilian", "removed", "23,000", "compete"],
-        (220, 260),
         ["Python_Challenge_hunters_capture*.mp4"],
+        [180, 205, 220, 295],
     ),
     Section(
         9,
         0,
         0,
         "Thermal / eDNA tech",
-        ["technology"],
-        ["thermal", "infrared", "edna", "dna", "camera", "technology", "nanometer", "water"],
-        (280, 320),
         ["Python_hunting_with_thermal_cameras_202605222109.mp4"],
+        [248, 262, 276, 290, 305],
     ),
     Section(
         10,
         0,
         0,
         "Hybrid expansion",
-        ["hybrid"],
-        ["hybrid", "genetic", "indian rock", "range", "north", "counties", "climate", "adapt"],
-        (320, 350),
         ["Hybrid_python_spreads_across_Flo*.mp4"],
+        [310, 325, 338, 352],
     ),
     Section(
         11,
         0,
         0,
         "Conclusion",
-        ["conclusion"],
-        ["eradication", "damage control", "endure", "surrendered", "habitat", "irreversibly"],
-        (350, 365),
         [],
+        [330, 345, 358, 365],
     ),
+]
+
+ANCHORS = [
+    "The Florida Everglades",
+    "In the 1980s",
+    "Then in August of 1992",
+    "These snakes have no natural predators",
+    "But the pythons didn't stop",
+    "In response, scientists launched",
+    "At night, wildlife officers",
+    "Florida has also mobilized",
+    "The state has pivoted to technology",
+    "But now, genetic testing",
+    "Total eradication is no longer",
 ]
 
 
@@ -236,6 +206,37 @@ def load_whisper_segments() -> list[dict]:
     return segments
 
 
+def whisper_full_text(segments: list[dict]) -> str:
+    return normalize(" ".join(s["text"] for s in segments))
+
+
+def char_time_map(segments: list[dict]) -> tuple[str, list[tuple[int, float]]]:
+    chars: list[str] = []
+    index: list[tuple[int, float]] = []
+    pos = 0
+    for seg in segments:
+        chunk = normalize(seg["text"])
+        if not chunk:
+            continue
+        if chars:
+            chars.append(" ")
+            pos += 1
+        for ch in chunk:
+            chars.append(ch)
+            index.append((pos, seg["start"]))
+            pos += 1
+    return "".join(chars), index
+
+
+def time_at_char(index: list[tuple[int, float]], char_pos: int, segments: list[dict], end: bool) -> float:
+    if not index:
+        return 0.0
+    for i, (pos, start) in enumerate(index):
+        if pos >= char_pos:
+            return segments[min(i, len(segments) - 1)]["end" if end else "start"]
+    return segments[-1]["end" if end else "start"]
+
+
 def align_sections(paragraphs: list[str], segments: list[dict]) -> list[Section]:
     para_words = [max(len(normalize(p).split()), 1) for p in paragraphs]
     assignments: list[int] = []
@@ -265,73 +266,11 @@ def align_sections(paragraphs: list[str], segments: list[dict]) -> list[Section]
     return aligned
 
 
-class CatalogMatcher:
-    def __init__(self, catalog_path: Path) -> None:
-        data = json.loads(catalog_path.read_text(encoding="utf-8"))
-        self.entries = data["segments"]
-        self.used_ranges: list[tuple[float, float]] = []
-
-    def _free(self, start: float, duration: float) -> bool:
-        end = start + duration
-        for used_start, used_end in self.used_ranges:
-            if not (end <= used_start + 0.05 or start >= used_end - 0.05):
-                return False
-        return True
-
-    def _score(self, entry: dict, section: Section) -> float:
-        score = 0.0
-        lo, hi = section.second_range
-        sec = entry["second"]
-        if lo <= sec <= hi:
-            score += 10.0
-        elif sec < lo:
-            score -= abs(lo - sec) * 0.05
-        else:
-            score -= abs(sec - hi) * 0.05
-
-        if entry["topic"] in section.topics:
-            score += 8.0
-
-        blob = normalize(
-            f"{entry.get('transcript', '')} {entry.get('visual_summary', '')} {entry.get('topic', '')}"
-        )
-        for kw in section.keywords:
-            if kw in blob:
-                score += 2.5
-
-        return score
-
-    def pick_start(
-        self, section: Section, duration: float, avoid_topics: set[str] | None = None
-    ) -> tuple[float, int, str]:
-        avoid_topics = avoid_topics or set()
-        candidates: list[tuple[float, dict]] = []
-        for entry in self.entries:
-            if entry["topic"] in avoid_topics:
-                continue
-            start = float(entry["second"])
-            if not self._free(start, duration):
-                continue
-            candidates.append((self._score(entry, section), entry))
-
-        if not candidates:
-            raise ValueError(f"No catalog match for section {section.index}: {section.title}")
-
-        candidates.sort(key=lambda x: (-x[0], x[1]["second"]))
-        best_score, best = candidates[0]
-        start = float(best["second"])
-        end = start + duration
-        self.used_ranges.append((start, end))
-        reason = (
-            f"topic={best['topic']} score={best_score:.1f} "
-            f"visual={best['visual_summary'][:60]}"
-        )
-        return start, best["second"], reason
-
-
 class UsageTracker:
     def __init__(self) -> None:
         self.broll_used: set[str] = set()
+        self.main_used: list[tuple[float, float]] = []
+        self.main_cursor = 0.0
 
     def claim_broll(self, path: Path, src_start: float, duration: float) -> None:
         if path.name in self.broll_used:
@@ -342,6 +281,37 @@ class UsageTracker:
         if duration > clip_len + 0.05:
             raise ValueError(f"B-roll overused: {path.name}")
         self.broll_used.add(path.name)
+
+    def _main_free(self, start: float, duration: float) -> bool:
+        end = start + duration
+        for used_start, used_end in self.main_used:
+            if not (end <= used_start + 0.05 or start >= used_end - 0.05):
+                return False
+        return True
+
+    def claim_main(self, preferred: float | None, duration: float, main_duration: float) -> float:
+        candidates: list[float] = []
+        if preferred is not None:
+            candidates.append(preferred)
+        candidates.append(self.main_cursor)
+
+        t = 0.0
+        while t <= max(0.0, main_duration - duration):
+            candidates.append(t)
+            t += 0.35
+
+        seen: set[float] = set()
+        for raw in candidates:
+            start = round(max(0.0, min(raw, main_duration - duration)), 2)
+            if start in seen:
+                continue
+            seen.add(start)
+            if self._main_free(start, duration):
+                end = start + duration
+                self.main_used.append((start, end))
+                self.main_cursor = min(main_duration, end + 0.15)
+                return start
+        raise ValueError("Ran out of unique main-video frames")
 
 
 def split_shot_durations(total: float) -> list[float]:
@@ -359,25 +329,13 @@ def split_shot_durations(total: float) -> list[float]:
     return parts
 
 
-AVOID_BY_SECTION: dict[int, set[str]] = {
-    3: {"python_challenge", "technology", "hybrid"},
-    5: {"hurricane", "pet_trade", "python_challenge", "technology"},
-    6: {"hurricane", "python_challenge", "hybrid", "alligator"},
-    7: {"hurricane", "hybrid", "technology"},
-    8: {"hurricane", "scout_snake", "hybrid", "technology"},
-    9: {"hurricane", "pet_trade", "python_challenge", "hybrid"},
-    10: {"hurricane", "python_challenge", "scout_snake"},
-}
-
-
-def build_section_shots(
-    section: Section, tracker: UsageTracker, matcher: CatalogMatcher
-) -> list[Shot]:
+def build_section_shots(section: Section, tracker: UsageTracker, main_duration: float) -> list[Shot]:
     duration = section.end - section.start
     durations = split_shot_durations(duration)
     shots: list[Shot] = []
     broll_queue = [find_clip(p) for p in section.broll]
-    avoid = AVOID_BY_SECTION.get(section.index, set())
+    hints = list(section.main_hints)
+    hint_idx = 0
 
     for target in durations:
         remaining = target
@@ -397,15 +355,15 @@ def build_section_shots(
             remaining -= use
 
         if remaining > 0.05:
-            src_start, cat_sec, reason = matcher.pick_start(section, remaining, avoid)
+            hint = hints[hint_idx] if hint_idx < len(hints) else None
+            hint_idx += 1
+            src_start = tracker.claim_main(hint or 0.0, remaining, main_duration)
             shots.append(
                 Shot(
                     path=MAIN_VIDEO,
                     src_start=src_start,
                     duration=remaining,
                     label=f"s{section.index}_m",
-                    catalog_second=cat_sec,
-                    match_reason=reason,
                 )
             )
 
@@ -477,7 +435,7 @@ def render_section(section: Section, shots: list[Shot], tmpdir: Path) -> Path:
     return out_path
 
 
-def render_final(section_videos: list[Path], audio_duration: float) -> None:
+def render_final(section_videos: list[Path], sections: list[Section], audio_duration: float) -> None:
     parts: list[str] = []
     labels = [f"sec{i}" for i in range(len(section_videos))]
 
@@ -539,10 +497,9 @@ def render_final(section_videos: list[Path], audio_duration: float) -> None:
 
 
 def main() -> int:
-    for path in (WHISPER_JSON, CATALOG_JSON, TRANSCRIPT, NARRATION, MAIN_VIDEO):
-        if not path.is_file():
-            print(f"Missing required file: {path}", file=sys.stderr)
-            return 1
+    if not WHISPER_JSON.is_file():
+        print(f"Missing whisper timing file: {WHISPER_JSON}", file=sys.stderr)
+        return 1
 
     paragraphs = [
         p.strip()
@@ -555,57 +512,45 @@ def main() -> int:
 
     segments = load_whisper_segments()
     sections = align_sections(paragraphs, segments)
+    main_duration = probe_duration(MAIN_VIDEO)
     audio_duration = probe_duration(NARRATION)
-    matcher = CatalogMatcher(CATALOG_JSON)
     tracker = UsageTracker()
 
     all_shots: dict[int, list[Shot]] = {}
     for section in sections:
-        all_shots[section.index] = build_section_shots(section, tracker, matcher)
+        all_shots[section.index] = build_section_shots(section, tracker, main_duration)
 
-    print(f"Building {OUTPUT.name} | audio {audio_duration:.1f}s | catalog-driven main clips")
+    print(f"Building {OUTPUT.name} | audio {audio_duration:.1f}s")
     for section in sections:
         shots = all_shots[section.index]
-        main_shots = [s for s in shots if s.path == MAIN_VIDEO]
         print(
             f"  Section {section.index:2d} {section.start:6.1f}-{section.end:6.1f}s "
             f"({section.end - section.start:5.1f}s) {len(shots)} shots | {section.title}"
         )
-        for ms in main_shots:
-            print(
-                f"    main @{ms.src_start:.0f}s ({ms.duration:.1f}s) "
-                f"catalog_sec={ms.catalog_second} | {ms.match_reason}"
-            )
 
-    with tempfile.TemporaryDirectory(prefix="doc3_") as tmp:
+    with tempfile.TemporaryDirectory(prefix="doc2_") as tmp:
         tmpdir = Path(tmp)
         section_videos: list[Path] = []
         for section in sections:
             print(f"Rendering section {section.index}...")
             section_videos.append(render_section(section, all_shots[section.index], tmpdir))
         print("Assembling final video...")
-        render_final(section_videos, audio_duration)
+        render_final(section_videos, sections, audio_duration)
 
     plan = {
         "output": str(OUTPUT),
         "audio_duration": audio_duration,
-        "catalog": str(CATALOG_JSON),
-        "matching_strategy": "Per-section topic ranges + keyword scoring from main_video_catalog.json",
         "sections": [
             {
                 "index": s.index,
                 "title": s.title,
                 "start": round(s.start, 2),
                 "end": round(s.end, 2),
-                "topics": s.topics,
-                "second_range": list(s.second_range),
                 "shots": [
                     {
                         "clip": shot.path.name,
                         "src_start": round(shot.src_start, 2),
                         "duration": round(shot.duration, 2),
-                        "catalog_second": shot.catalog_second,
-                        "match_reason": shot.match_reason,
                     }
                     for shot in all_shots[s.index]
                 ],
@@ -614,8 +559,7 @@ def main() -> int:
         ],
     }
     PLAN_OUT.write_text(json.dumps(plan, indent=2), encoding="utf-8")
-    out_dur = probe_duration(OUTPUT)
-    print(f"Done: {OUTPUT} ({out_dur:.1f}s)")
+    print(f"Done: {OUTPUT}")
     return 0
 
 

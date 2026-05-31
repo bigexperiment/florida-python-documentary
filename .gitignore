@@ -5,12 +5,11 @@ output/
 assets/
 models/
 
-# Intermediate audit artifacts with embedded frames/audio
-docs/main_video_frames/
-docs/main_video_audio.wav
-docs/sync_audit/
-docs/sync_audit_v4/
-docs/sync_review/
+# Intermediate artifacts (extracted frames, audio)
+intermediate/
+
+# Sync audit/review reports with embedded frames
+reports/
 
 # OS / Python
 .DS_Store
