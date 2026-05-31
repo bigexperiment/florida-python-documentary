@@ -1,0 +1,459 @@
+{
+  "output": "/Users/ganesh/Downloads/abc/output/final_documentary_2.mp4",
+  "audio_duration": 334.367313,
+  "sections": [
+    {
+      "index": 1,
+      "title": "Everglades opener",
+      "start": 0.0,
+      "end": 18.76,
+      "shots": [
+        {
+          "clip": "into.mp4",
+          "src_start": 0.0,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 5,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 18,
+          "duration": 4.38
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 32,
+          "duration": 4.38
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "Exotic pet trade",
+      "start": 18.76,
+      "end": 58.84,
+      "shots": [
+        {
+          "clip": "Python_moving_in_swamp_water_202605222056.mp4",
+          "src_start": 0.0,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 42,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 55,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 68,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 82,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 0.0,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 10.15,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 22.4,
+          "duration": 3.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 25.55,
+          "duration": 2.08
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "Hurricane Andrew",
+      "start": 58.84,
+      "end": 93.72,
+      "shots": [
+        {
+          "clip": "Hurricane_destroys_reptile_facility_202605222058.mp4",
+          "src_start": 0.0,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 36.4,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 47.25,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 92,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 108,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 113.15,
+          "duration": 4.94
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 118.24,
+          "duration": 4.94
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "Ecosystem collapse",
+      "start": 93.72,
+      "end": 131.52,
+      "shots": [
+        {
+          "clip": "Pythons_in_Everglades_landscape_202605222112.mp4",
+          "src_start": 0.0,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 123.33,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 132,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 145,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 158,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 172,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 177.15,
+          "duration": 3.9
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 181.2,
+          "duration": 3.9
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "Alligator predation",
+      "start": 131.52,
+      "end": 147.48,
+      "shots": [
+        {
+          "clip": "Python_hunting_alligator_in_Ever\u2026_202605222028.mp4",
+          "src_start": 0.0,
+          "duration": 5.0
+        },
+        {
+          "clip": "Python_swallowing_alligator_dawn_202605222100.mp4",
+          "src_start": 0.0,
+          "duration": 5.0
+        },
+        {
+          "clip": "Python_swallowing_alligator_dawn_202605222103.mp4",
+          "src_start": 0.0,
+          "duration": 3.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 185.25,
+          "duration": 2.96
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "Scout snake program",
+      "start": 147.48,
+      "end": 174.04,
+      "shots": [
+        {
+          "clip": "Officers_capture_python_in_swamp_202605222033.mp4",
+          "src_start": 0.0,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 228,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 242,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 255,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 260.15,
+          "duration": 3.28
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 263.58,
+          "duration": 3.28
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "Hand capture",
+      "start": 174.04,
+      "end": 202.76,
+      "shots": [
+        {
+          "clip": "Officers_capture_large_python_202605222105.mp4",
+          "src_start": 0.0,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 198,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 212,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 268,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 282,
+          "duration": 4.36
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 286.51,
+          "duration": 4.36
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "Python Challenge",
+      "start": 202.76,
+      "end": 235.72,
+      "shots": [
+        {
+          "clip": "Python_Challenge_hunters_capture\u2026_202605222106.mp4",
+          "src_start": 0.0,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 291.02,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 205,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 220,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 60.2,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 27.65,
+          "duration": 3.98
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 73.15,
+          "duration": 3.98
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "Thermal / eDNA tech",
+      "start": 235.72,
+      "end": 268.44,
+      "shots": [
+        {
+          "clip": "Python_hunting_with_thermal_cameras_202605222109.mp4",
+          "src_start": 0.0,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 248,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 96.95,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 276,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 102.2,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 305,
+          "duration": 3.86
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 309.01,
+          "duration": 3.86
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "Hybrid expansion",
+      "start": 268.44,
+      "end": 304.04,
+      "shots": [
+        {
+          "clip": "Hybrid_python_spreads_across_Flo\u2026_202605222110.mp4",
+          "src_start": 0.0,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 313.02,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 325,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 338,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 352,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 357.15,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 362.3,
+          "duration": 3.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 15.4,
+          "duration": 2.6
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "title": "Conclusion",
+      "start": 304.04,
+      "end": 334.36,
+      "shots": [
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 330,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 345,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 137.2,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 150.15,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 163.1,
+          "duration": 5.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 168.25,
+          "duration": 3.0
+        },
+        {
+          "clip": "The_Asymmetric_War__Florida_vs.mp4",
+          "src_start": 52.5,
+          "duration": 2.32
+        }
+      ]
+    }
+  ]
+}
